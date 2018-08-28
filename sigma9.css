@@ -51,6 +51,8 @@ a {
 	background: transparent;
 }
 
+#side-bar a:visited{ color: #b01; }
+
 a:visited { color: #824; }
 
 a.newpage {
