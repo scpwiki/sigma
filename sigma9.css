@@ -50,6 +50,9 @@ a {
 	text-decoration: none;
 	background: transparent;
 }
+
+a:visited { color: #824; }
+
 a.newpage {
 	color: #d61;
 	text-decoration: none;
