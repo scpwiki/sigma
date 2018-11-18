@@ -1405,4 +1405,25 @@ z-index: 1;
 	background: rgba(0,0,0,0.3) 1px 1px repeat;
 	z-index: -1;
 }
+	
+div.scpnet-interwiki-wrapper {
+    width: 17em;
+    margin-left: -5px;
+}
+
+iframe.scpnet-interwiki-frame {
+    height: 300px;
+    width: 17em;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    iframe.scpnet-interwiki-frame {
+        height: 300px;
+        width: 18em;
+    }
+    div.scpnet-interwiki-wrapper {
+        width: 18em;
+    }
+}
 }
