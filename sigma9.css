@@ -147,7 +147,7 @@ sup {
 #search-top-box-form input[type=submit]:focus {
 	border: solid 1px #fff;
 	color: #fff;
-	text-shadow: 0 0 1px rgba(255,255,255,.25)
+	text-shadow: 0 0 1px rgba(255,255,255,.25);
 	background-color: #966;
 	background: linear-gradient(to bottom, #c99,#966,#633);
 	box-shadow: 0 1px 3px rgba(0,0,0,.8);
