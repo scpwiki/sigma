@@ -1109,6 +1109,32 @@ word-break: keep-all;
 
 }
 
+/* Small Mobile Media Query */
+@media (max-width: 385px) {
+#header {
+	background-position: 5% 5.5em;
+}
+
+#header h1, #header h2 {
+	margin-left: -webkit-calc(66px + 5%);
+	margin-left: -moz-calc(66px + 5%);
+	margin-left: calc(66px + 5%);
+}
+
+#header, #top-bar {
+	width: 100%;
+	max-width: 100%;
+}
+
+.mobile-top-bar {
+	width: 100%;
+}
+
+#top-bar li a {
+	padding: 10px 0.5em;
+}
+}
+
 /* Note Media Query */
 @media (min-width: 480px) and (max-width: 580px) {
 #search-top-box-input {
