@@ -98,8 +98,10 @@ div#container-wrap {
 	background: url(http://www.scp-wiki.net/local--files/component:theme/body_bg.png) top left repeat-x;
 }
 
-.footnoteref, #page-content > sup {
- vertical-align: top; position: relative; top: -0.5em;
+sup {
+    vertical-align: top; 
+    position: relative; 
+    top: -0.5em;
 }
 
 /* HEADER */
