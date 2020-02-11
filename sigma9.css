@@ -1454,6 +1454,7 @@ z-index: 1;
 	background: rgba(0,0,0,0.3) 1px 1px repeat;
 	z-index: -1;
 }
+}
 
 div.scpnet-interwiki-wrapper {
     width: 17em;
@@ -1474,5 +1475,4 @@ iframe.scpnet-interwiki-frame {
     div.scpnet-interwiki-wrapper {
         width: 18em;
     }
-}
 }
