@@ -363,6 +363,14 @@ sup {
 	margin-bottom: 15px;
 }
 
+#side-bar .side-block.media {
+        background: #e5e5ff;
+}
+
+#side-bar .side-block.resources {
+        background: #fff0f0;
+}
+
 #side-bar .side-area {
 	padding: 10px;
 }
