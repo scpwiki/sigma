@@ -354,7 +354,7 @@ sup {
 	overscroll-behavior: none;
 }
 
-#side-bar .side-block {
+.side-block {
 	padding: 10px;
 	border: 1px solid #660000;
 	border-radius: 10px;
