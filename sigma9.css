@@ -111,8 +111,8 @@ div#container-wrap {
 }
 
 sup {
-    vertical-align: top; 
-    position: relative; 
+    vertical-align: top;
+    position: relative;
     top: -0.5em;
 }
 
@@ -947,6 +947,26 @@ div.blockquote {
 	div.blockquote {
 		margin: 0.5em;
 	}
+}
+
+/* Fix revision list */
+.changes-list-item td.title {
+	min-width: 40%;
+}
+.changes-list-item .flags {
+	text-align: center;
+	width: 2em;
+}
+.changes-list-item .mod-date {
+	text-align: center;
+}
+.changes-list-item .mod-by {
+	width: 10em;
+}
+@media (max-width: 435px) {
+.changes-list-item .revision-no {
+	display: none;
+}
 }
 
 /*
