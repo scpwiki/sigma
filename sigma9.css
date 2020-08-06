@@ -111,8 +111,8 @@ div#container-wrap {
 }
 
 sup {
-    vertical-align: top; 
-    position: relative; 
+    vertical-align: top;
+    position: relative;
     top: -0.5em;
 }
 
@@ -945,14 +945,27 @@ div.blockquote {
 	margin: 1em 3em;
 }
 
+div.curved {
+	border-radius: 10px;
+	margin: 1em 3em;
+}
+
 @media (max-width: 479px) {
 	div.blockquote {
+		margin: 1em 0;
+	}
+
+	div.curved {
 		margin: 1em 0;
 	}
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
 	div.blockquote {
+		margin: 0.5em;
+	}
+
+	div.curved {
 		margin: 0.5em;
 	}
 }
