@@ -951,20 +951,14 @@ div.curved {
 }
 
 @media (max-width: 479px) {
-	div.blockquote {
-		margin: 1em 0;
-	}
-
-	div.curved {
+	div.blockquote,
+	div.curved{
 		margin: 1em 0;
 	}
 }
 
 @media (min-width: 480px) and (max-width: 580px) {
-	div.blockquote {
-		margin: 0.5em;
-	}
-
+	div.blockquote,
 	div.curved {
 		margin: 0.5em;
 	}
