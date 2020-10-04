@@ -1095,10 +1095,6 @@ img, embed, video, object, iframe, table {
 .mobile-top-bar ul li:last-of-type ul {
 	right: 0;
 }
-
-span, a {
-	word-break: break-all;
-}
 }
 
 /* Mobile Media Query */
