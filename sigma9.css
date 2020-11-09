@@ -695,41 +695,6 @@ div.sexy-box div.image-container img {
 	text-decoration: none;
 }
 
-/* Heritage Collection Rating Module */
-.heritage-rating-module {
-	display: inline-block;
-	background-color: #633;
-	padding: 2px 8px 2px 5px;
-	border: solid 1px #ccc066;
-	border-radius: 8px;
-	box-shadow: 0 1px 3px rgba(0,0,0,.25);
-	margin-right: 2em;
-	margin-bottom: 10px;
-}
-
-.heritage-rating-module .page-rate-widget-box {
-	box-shadow: none;
-	margin-bottom: 0;
-	margin-right: 0;
-}
-
-.heritage-rating-module .heritage-emblem {
-	float: left;
-	position: relative;
-	top: -2px;
-	left: 2px;
-	height: 16px;
-	width: 16px;
-	overflow: visible;
-	margin-right: 2px;
-}
-
-.heritage-rating-module .heritage-emblem img {
-	width: 20px;
-	height: 20px;
-	border: 0;
-}
-
 /* Fixes for multi-line page tags */
 
 #main-content .page-tags {
