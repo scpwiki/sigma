@@ -82,6 +82,11 @@ a.newpage {
 	width: 95%;
 }
 
+hr {
+	height: 0;
+	border-top: thin solid #aaa;
+}
+
 /* GLOBAL WIDTH */
 #header, #top-bar {
 	width: 90%;
