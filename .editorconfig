@@ -1,0 +1,14 @@
+# EditorConfig specification for the Sigma-9 CSS theme
+# See https://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.css]
+indent_style = tab
+tab_width = 4
+trim_trailing_whitespace = true
