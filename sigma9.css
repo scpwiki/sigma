@@ -5,6 +5,13 @@
 	Edited for SCP Foundation by Dr Devan
 */
 
+@charset "utf-8";
+ 
+@import url('http://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 /* COMMON */
 #content-wrap {
 	position: relative;
@@ -39,12 +46,7 @@ h2, h3, h4, h5, h6, h7 {
 }
 
 ul {
-	/* list-style-image: url(http://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/bullet.gif); */
 	list-style: square;
-}
-
-#top-bar ul {
-	/* list-style-image: none; /* IE ONLY! IF list-style-image IS SET */
 }
 
 li, p {
@@ -419,9 +421,6 @@ sup {
 	color: #666;
 }
 
-#side-bar div.menu-item.sub-item {
-}
-
 #side-bar .collapsible-block-folded {
 	background: url(http://www.scp-wiki.net/local--files/nav:side/expand.png) 0 2px no-repeat;
 }
@@ -466,7 +465,6 @@ sup {
 
 #breadcrumbs {
 	margin: -1em 0 1em;
-	font-weight: 85%;
 }
 
 /* YUI-TABS */
@@ -604,7 +602,6 @@ div.sexy-box div.image-container img {
 .content-panel .panel-body {
 	padding: 5px 10px;
 	background: #fff9f0 url(http://www.scp-wiki.net/local--files/component:theme/panel-bg-gradient-reverse.png) bottom repeat-x;
-	/* box-shadow: 1px 2px 3px rgba(0,0,0,.2) inset */
 }
 
 .content-panel .panel-footer {
@@ -1028,7 +1025,6 @@ div.curved {
 	width: 9px; /* for vertical scrollbars */
 	height: 9px; /* for horizontal scrollbars */
 	border: solid 1px rgba(0, 0, 0, 0.1);
-	border-round: 0.5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -1151,12 +1147,6 @@ table.form td, table.form th {
 	float: left;
 }
 
-/*
-td.title {
-	width: 30%;
-}
-*/
-
 td.name {
 	width: 15em;
 }
@@ -1260,12 +1250,6 @@ blockquote {
 #header h1, #header h2 {
 	margin-left: 80px;
 }
-
-/*
-td.title {
-	width: 30%;
-}
-*/
 
 #page-content div.title {
 word-break: keep-all;
@@ -1382,18 +1366,6 @@ td.name {
 	clear: both;
 }
 }
-
-/* Desktop Media Query -----------
-@media (min-width: 980px) and (max-width: 1399px) {
-
-}
------------------------------------------- */
-
-/* Wide Monitor Media Query -----
-@media (min-width: 1400px) {
-
-}
------------------------------------------- */
 
 /* off-canvas */
 
@@ -1545,6 +1517,5 @@ iframe.scpnet-interwiki-frame {
 
 div.scpnet-interwiki-wrapper {
 	width: 18em;
-}
 }
 }
