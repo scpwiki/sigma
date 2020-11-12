@@ -929,6 +929,26 @@ div.curved {
 	}
 }
 
+/* Fix revision list */
+.changes-list-item td.title {
+	min-width: 40%;
+}
+.changes-list-item .flags {
+	text-align: center;
+	width: 2em;
+}
+.changes-list-item .mod-date {
+	text-align: center;
+}
+.changes-list-item .mod-by {
+	width: 10em;
+}
+@media (max-width: 435px) {
+.changes-list-item .revision-no {
+	display: none;
+}
+}
+
 /*
     2011-11-13 Minobe Hiroyuki @ Marguerite Site
     www.marguerite.jp/Nihongo/WWW/CSSTips/EmphasizeDots-CSS3.html
