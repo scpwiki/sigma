@@ -109,7 +109,7 @@ body {
 }
 
 div#container-wrap {
-	background: url(https://scp-wiki.wdfiles.com/local--files/component:theme/body_bg.png) top left repeat-x;
+	background: url('https://scp-wiki.wdfiles.com/local--files/component:theme/body_bg.png') top left repeat-x;
 }
 
 sup {
@@ -124,7 +124,7 @@ sup {
 	position: relative;
 	z-index: 10;
 	padding-bottom: 22px; /* FOR MENU */
-	background: url(https://scp-wiki.wdfiles.com/local--files/component:theme/logo.png) 10px 40px no-repeat;
+	background: url('https://scp-wiki.wdfiles.com/local--files/component:theme/logo.png') 10px 40px no-repeat;
 }
 
 #search-top-box {
@@ -422,7 +422,7 @@ sup {
 }
 
 #side-bar .collapsible-block-folded {
-	background: url(https://scp-wiki.wdfiles.com/local--files/nav:side/expand.png) 0 2px no-repeat;
+	background: url('https://scp-wiki.wdfiles.com/local--files/nav:side/expand.png') 0 2px no-repeat;
 }
 
 #side-bar .collapsible-block-link {
@@ -475,19 +475,19 @@ sup {
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
 	background-color:#d8d8d8;
-	background-image: url(https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png);
+	background-image: url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png');
 }
 
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
 .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
-	background:#700 url(https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png) repeat-x left -1400px; /* selected tab background */
+	background:#700 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px; /* selected tab background */
 	color:#fff;
 }
 
 .yui-navset .yui-nav a:hover,
 .yui-navset .yui-nav a:focus {
-	background:#d88 url(https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png) repeat-x left -1300px;
+	background:#d88 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1300px;
 	text-decoration: none;
 }
 
@@ -601,7 +601,7 @@ div.sexy-box div.image-container img {
 
 .content-panel .panel-body {
 	padding: 5px 10px;
-	background: #fff9f0 url(https://scp-wiki.wdfiles.com/local--files/component:theme/panel-bg-gradient-reverse.png) bottom repeat-x;
+	background: #fff9f0 url('https://scp-wiki.wdfiles.com/local--files/component:theme/panel-bg-gradient-reverse.png') bottom repeat-x;
 }
 
 .content-panel .panel-footer {
