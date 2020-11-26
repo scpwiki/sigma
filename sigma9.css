@@ -89,11 +89,6 @@ a.newpage {
 	margin: 0 auto;
 }
 
-#top-bar {
-	width: 100%;
-	margin: 0 auto;
-}
-
 .mobile-top-bar {
 	display: none;
 	position: absolute;
@@ -247,8 +242,10 @@ sup {
 	position: absolute;
 	top: 140px;
 	height: 21px;
+	width: 100%;
 	line-height: 18px;
 	padding: 0;
+	margin: 0 auto;
 	z-index: 20;
 	font-size: 90%;
 }
@@ -275,6 +272,8 @@ sup {
 	border: solid 1px #666;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
 	border-top: 0;
+	border-width: 0 1px 1px 1px;
+	width: auto;
 }
 
 #top-bar ul li a {
@@ -312,11 +311,6 @@ sup {
 #top-bar ul li:hover a:hover {
 	background: #fff;
 	text-decoration: none;
-}
-
-#top-bar ul li ul {
-	border-width: 0 1px 1px 1px;
-	width: auto;
 }
 
 #top-bar ul li ul li,
