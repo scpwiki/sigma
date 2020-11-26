@@ -1406,7 +1406,7 @@ td.name {
 	display: none;
 }
 
-#top-menu .open-menu a {
+#top-bar .open-menu a {
 	position: fixed;
 	top: 0.5em;
 	left: 0.5em;
@@ -1424,7 +1424,7 @@ td.name {
 	color: #888;
 }
 
-#top-menu .open-menu a:hover {
+#top-bar .open-menu a:hover {
 	text-decoration: none;
 	-webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
 	-moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
