@@ -26,7 +26,9 @@ rules:
   color-hex-case: lower
   font-family-name-quotes: always-where-recommended
 
-  comment-empty-line-before: always
+  comment-empty-line-before:
+    - always
+    - except: ['first-nested']
   comment-whitespace-inside: always
   comment-word-disallowed-list: ['TODO', 'FIXME']
 
@@ -47,9 +49,7 @@ rules:
   declaration-colon-newline-after: always-multi-line
   declaration-colon-space-after: always-single-line
   declaration-colon-space-before: never
-  declaration-empty-line-before:
-    - never
-    - except: ['after-comment']
+  declaration-empty-line-before: never
 
   custom-property-empty-line-before: never
 
