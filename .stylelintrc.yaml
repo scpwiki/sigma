@@ -96,3 +96,7 @@ rules:
   media-feature-parentheses-space-inside: never
   media-feature-range-operator-space-after: always
   media-feature-range-operator-space-before: always
+
+  # Disable this rule for now, it produces hundreds of incidents
+  # and would require significant refactoring to resolve.
+  no-descending-specificity: null
