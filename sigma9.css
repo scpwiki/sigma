@@ -1406,7 +1406,7 @@ td.name {
 	display: none;
 }
 
-.open-menu a {
+#top-bar .open-menu a {
 	position: fixed;
 	top: 0.5em;
 	left: 0.5em;
@@ -1418,14 +1418,14 @@ td.name {
 	height: 30px;
 	line-height: 0.9em;
 	text-align: center;
-	border: 0.2em solid #888 !important;
-	background-color: #fff !important;
+	border: 0.2em solid #888;
+	background-color: #fff;
 	border-radius: 3em;
-	color: #888 !important;
+	color: #888;
 }
 
-.open-menu a:hover {
-	text-decoration: none !important;
+#top-bar .open-menu a:hover {
+	text-decoration: none;
 	-webkit-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
 	-moz-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
 	-ms-box-shadow: 0px 0px 20px 3px rgba(153,153,153,1);
