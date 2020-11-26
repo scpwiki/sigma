@@ -7,7 +7,7 @@ name: Stylelint
 
 jobs:
   lint:
-    name: Lint
+    name: Check lints in CSS
     runs-on: ubuntu-latest
 
     steps:
