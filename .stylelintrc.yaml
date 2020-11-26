@@ -8,7 +8,7 @@ rules:
   unicode-bom: never
 
   max-empty-lines: 2
-  max-line-length: 60
+  max-line-length: 80
   max-nesting-depth: 2
   no-eol-whitespace: true
   no-empty-first-line: true
@@ -28,7 +28,7 @@ rules:
 
   comment-empty-line-before: always
   comment-whitespace-inside: always
-  comment-word-blacklist: ['TODO', 'FIXME']
+  comment-word-disallowed-list: ['TODO', 'FIXME']
 
   value-list-comma-newline-after: always-multi-line
   value-list-comma-newline-before: never-multi-line
@@ -71,7 +71,6 @@ rules:
   selector-attribute-brackets-space-inside: never
   selector-attribute-operator-space-after: never
   selector-attribute-operator-space-before: never
-  selector-attribute-quotes: always
   selector-combinator-space-after: always
   selector-combinator-space-before: always
   selector-descendant-combinator-no-non-space: true

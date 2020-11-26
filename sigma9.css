@@ -35,7 +35,7 @@ h1 {
 	font-weight: bold;
 }
 
-h2, h3, h4, h5, h6, h7 {
+h2, h3, h4, h5, h6 {
 	margin: .5em 0 .4em;
 	padding: 0;
 	letter-spacing: 1px;
@@ -59,23 +59,23 @@ a {
 	background: transparent;
 }
 
-#side-bar a:visited {
-	color: #b01;
-}
-
 a:visited {
 	color: #824;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+#side-bar a:visited {
+	color: #b01;
 }
 
 a.newpage {
 	color: #d61;
 	text-decoration: none;
 	background: transparent;
-}
-
-a:hover {
-	text-decoration: underline;
-	background-color: transparent;
 }
 
 .form-control {
@@ -159,7 +159,7 @@ sup {
 	font-weight: bold;
 	color: #ccc;
 	background-color: #633;
-	background: linear-gradient(to bottom, #966, #633, #300);
+	background-color: linear-gradient(to bottom, #966, #633, #300);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 	cursor: pointer;
 }
@@ -170,7 +170,7 @@ sup {
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, .25);
 	background-color: #966;
-	background: linear-gradient(to bottom, #c99, #966, #633);
+	background-color: linear-gradient(to bottom, #c99, #966, #633);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -245,7 +245,6 @@ sup {
 /* TOP MENU */
 #top-bar {
 	position: absolute;
-	z-index: 50;
 	top: 140px;
 	height: 21px;
 	line-height: 18px;
@@ -322,7 +321,6 @@ sup {
 
 #top-bar ul li ul li,
 #top-bar ul li ul li.sfhover,
-#top-bar ul li ul li,
 #top-bar ul li ul li:hover {
 	border-width: 0;
 }
@@ -498,11 +496,6 @@ sup {
 	border-color: #444;
 }
 
-.yui-navset .yui-nav,
-.yui-navset .yui-navset-top .yui-nav {
-	border-color: #444;
-}
-
 .yui-navset li {
 	line-height: normal;
 }
@@ -562,7 +555,12 @@ div.sexy-box div.image-container img {
 	background-color: #999990;
 	margin: 10px 0 15px;
 	box-shadow: 3px 3px 6px #bbb;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, .5), inset 0 1px rgba(255, 255, 255, .3), inset 0 10px rgba(255, 255, 255, .2), inset 0 10px 20px rgba(255, 255, 255, .25), inset 0 -15px 30px rgba(0, 0, 0, .1);
+	box-shadow:
+		0 2px 6px rgba(0, 0, 0, .5),
+		inset 0 1px rgba(255, 255, 255, .3),
+		inset 0 10px rgba(255, 255, 255, .2),
+		inset 0 10px 20px rgba(255, 255, 255, .25),
+		inset 0 -15px 30px rgba(0, 0, 0, .1);
 }
 
 .content-panel.standalone {
@@ -778,7 +776,7 @@ div.sexy-box div.image-container img {
 .thread-container .post .head {
 	padding: .5em 1em;
 	background-color: #eee;
-	background: linear-gradient(to right, #eee, #eeecec);
+	background-color: linear-gradient(to right, #eee, #eeecec);
 	box-shadow: inset 2px 3px 6px rgba(0, 0, 0, .15);
 	border-radius: 5px 5px 0 0;
 }
@@ -1149,14 +1147,11 @@ img, embed, video, object, iframe, table {
 
 	table.form td, table.form th {
 		float: left;
+		padding: 0;
 	}
 
 	td.name {
 		width: 15em;
-	}
-
-	table.form td, table.form th {
-		padding: 0;
 	}
 
 	#edit-page-title {
@@ -1336,7 +1331,8 @@ img, embed, video, object, iframe, table {
 		margin: 0;
 	}
 
-	#top-bar ul li.sfhover ul li a, #top-bar ul li:hover ul li a {
+	#top-bar ul li.sfhover ul li a,
+	#top-bar ul li:hover ul li a {
 		width: 110px;
 	}
 
@@ -1416,7 +1412,7 @@ img, embed, video, object, iframe, table {
 		top: .5em;
 		left: .5em;
 		z-index: 15;
-		font-family: 'Nanum Gothic', san-serif;
+		font-family: 'Nanum Gothic', sans-serif;
 		font-size: 30px;
 		font-weight: 700;
 		width: 30px;
@@ -1522,3 +1518,5 @@ iframe.scpnet-interwiki-frame {
 		width: 18em;
 	}
 }
+
+/* vim: set noet: */
