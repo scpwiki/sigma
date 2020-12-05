@@ -461,6 +461,10 @@ sup {
 	margin: -1em 0 1em;
 }
 
+.pseudocrumbs {
+    margin: -1em 0 1em;
+}
+
 /* YUI-TABS */
 .yui-navset .yui-content {
 	background-color: #f5f5f5;
