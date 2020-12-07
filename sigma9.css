@@ -46,11 +46,11 @@ h2, h3, h4, h5, h6 {
 }
 
 .meta-title {
-	border-bottom: solid 1px #bbbbbb;
-	color: #990011;
+	border-bottom: solid 1px #bbb;
+	color: #901;
 	font-weight: normal;
-	margin: 0 0 0.6em;
-	padding: 0 0 0.25em;
+	margin: 0 0 .6em;
+	padding: 0 0 .25em;
 	font-size: 200%;
 }
 
