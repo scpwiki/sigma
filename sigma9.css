@@ -772,14 +772,10 @@ div.sexy-box div.image-container img {
 	transition: opacity .5s ease-in-out;
 }
 
-.licensebox .collapsible-block-link:hover {
-	opacity: 1;
-}
-
+.licensebox .collapsible-block-link:hover,
 .licensebox .collapsible-block-link:active {
 	opacity: 1;
 }
-
 
 /* Forum Customizations */
 .forum-thread-box .description-block {
