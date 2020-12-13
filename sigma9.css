@@ -762,14 +762,14 @@ div.sexy-box div.image-container img {
 
 /* Licensebox */
 .licensebox .collapsible-block-link {
-	margin-left:.25em;
+	margin-left: .25em;
 	padding: .25em;
 	font-weight: bold;
 	opacity: .5;
 	color: inherit;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
 }
 
 .licensebox .collapsible-block-link:hover {
