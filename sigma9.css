@@ -760,6 +760,27 @@ div.sexy-box div.image-container img {
 	font-size: 75%;
 }
 
+/* Licensebox */
+.licensebox .collapsible-block-link {
+	margin-left:.25em;
+	padding: .25em;
+	font-weight: bold;
+	opacity: .5;
+	color: inherit;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.licensebox .collapsible-block-link:hover {
+	opacity: 1;
+}
+
+.licensebox .collapsible-block-link:active {
+	opacity: 1;
+}
+
+
 /* Forum Customizations */
 .forum-thread-box .description-block {
 	padding: .5em 1em;
