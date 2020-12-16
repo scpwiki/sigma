@@ -338,6 +338,7 @@ sup {
 
 /* SIDE MENU */
 #side-bar {
+	display: block;
 	clear: none;
 	float: none;
 	position: absolute;
@@ -346,7 +347,6 @@ sup {
 	width: 17em;
 	padding: 0;
 	border: none;
-	display: block;
 	overscroll-behavior: none;
 }
 
@@ -443,6 +443,78 @@ sup {
 #side-bar ul {
 	list-style-type: none;
 	padding: 0 5px 0;
+}
+
+.close-menu {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .3) 1px 1px repeat;
+	z-index: -1;
+}
+
+/* The button that shows the sidebar on mobile */
+#top-bar .open-menu a {
+	position: fixed;
+	top: .5em;
+	left: .5em;
+	z-index: 15;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	width: 30px;
+	height: 30px;
+	line-height: .9em;
+	text-align: center;
+	border: .2em solid #888;
+	background-color: #fff;
+	border-radius: 3em;
+	color: #888;
+}
+
+#top-bar .open-menu a:hover {
+	text-decoration: none;
+	box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
+}
+
+@media (max-width: 767px) {
+	/* On mobile, the sidebar is tucked away to the left */
+	#side-bar {
+		position: fixed;
+		top: 0;
+		left: -25em;
+		height: 100%;
+		background-color: rgb(184, 134, 134);
+		overflow-y: auto;
+		z-index: 10;
+		padding: 1em 1em 0 1em;
+		transition: left .5s ease-in-out .1s;
+	}
+
+	/* XXX What is this for? */
+	#side-bar::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 0;
+		height: 100%;
+		background-color: rgba(0, 0, 0, .2);
+	}
+
+	/* When the sidebar is the URL target, move it to the right */
+	#side-bar:target {
+		left: 0;
+		border: 1px solid #dedede;
+		z-index: 10;
+	}
+
+	/* When the sidebar is the URL target, show the darkened close area */
+	#side-bar:target .close-menu {
+		display: block;
+	}
 }
 
 /* CONTENT */
@@ -1100,11 +1172,6 @@ img, embed, video, object, iframe, table {
 		max-width: 90%;
 	}
 
-	#side-bar {
-		width: 80%;
-		position: relative;
-	}
-
 	.top-bar {
 		display: none;
 	}
@@ -1206,11 +1273,6 @@ img, embed, video, object, iframe, table {
 		max-width: 90%;
 	}
 
-	#side-bar {
-		width: 80%;
-		position: relative;
-	}
-
 	.top-bar {
 		display: none;
 	}
@@ -1266,11 +1328,6 @@ img, embed, video, object, iframe, table {
 @media (min-width: 581px) and (max-width: 767px) {
 	#search-top-box-input {
 		width: 8em;
-	}
-
-	#side-bar {
-		width: 80%;
-		position: relative;
 	}
 
 	#main-content {
@@ -1361,11 +1418,6 @@ img, embed, video, object, iframe, table {
 	}
 }
 
-/* off-canvas */
-.close-menu {
-	display: none;
-}
-
 @media (max-width: 767px) {
 	.page-history tbody tr td:last-child {
 		width: 35%;
@@ -1401,33 +1453,6 @@ img, embed, video, object, iframe, table {
 		display: none;
 	}
 
-	#top-bar .open-menu a {
-		position: fixed;
-		top: .5em;
-		left: .5em;
-		z-index: 15;
-		font-family: 'Nanum Gothic', sans-serif;
-		font-size: 30px;
-		font-weight: 700;
-		width: 30px;
-		height: 30px;
-		line-height: .9em;
-		text-align: center;
-		border: .2em solid #888;
-		background-color: #fff;
-		border-radius: 3em;
-		color: #888;
-	}
-
-	#top-bar .open-menu a:hover {
-		text-decoration: none;
-		-webkit-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-moz-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-ms-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		-o-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-		box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
-	}
-
 	#main-content {
 		max-width: 90%;
 		margin: 0 5%;
@@ -1437,57 +1462,6 @@ img, embed, video, object, iframe, table {
 		-ms-transition: .5s ease-in-out .1s;
 		-o-transition: .5s ease-in-out .1s;
 		transition: .5s ease-in-out .1s;
-	}
-
-	#side-bar {
-		display: block;
-		position: fixed;
-		top: 0;
-		left: -25em;
-		width: 17em;
-		height: 100%;
-		background-color: rgb(184, 134, 134);
-		overflow-y: auto;
-		z-index: 10;
-		padding: 1em 1em 0 1em;
-		-webkit-transition: left .5s ease-in-out .1s;
-		-moz-transition: left .5s ease-in-out .1s;
-		-ms-transition: left .5s ease-in-out .1s;
-		-o-transition: left .5s ease-in-out .1s;
-		transition: left .5s ease-in-out .1s;
-	}
-
-	#side-bar::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		width: 0;
-		height: 100%;
-		background-color: rgba(0, 0, 0, .2);
-	}
-
-	#side-bar:target {
-		display: block;
-		left: 0;
-		width: 17em;
-		margin: 0;
-		border: 1px solid #dedede;
-		z-index: 10;
-	}
-
-	#side-bar:target + #main-content {
-		left: 0;
-	}
-
-	#side-bar:target .close-menu {
-		display: block;
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		background: rgba(0, 0, 0, .3) 1px 1px repeat;
-		z-index: -1;
 	}
 }
 
