@@ -335,7 +335,7 @@ sup {
 	right: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
 	/* On mobile, show the mobile top bar instead of the regular one */
 	.mobile-top-bar {
 		display: block;
@@ -503,7 +503,7 @@ sup {
 	box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
 	/* On mobile, the sidebar is tucked away to the left */
 	#side-bar {
 		position: fixed;
