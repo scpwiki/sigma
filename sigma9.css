@@ -1527,18 +1527,13 @@ div.scpnet-interwiki-wrapper {
 }
 
 iframe.scpnet-interwiki-frame {
-	height: 300px;
+	height: 350px;
 	width: 17em;
 	border: none;
 }
 
 @media (min-width: 768px) {
-	iframe.scpnet-interwiki-frame {
-		height: 300px;
-		width: 18em;
-	}
-
-	div.scpnet-interwiki-wrapper {
+	iframe.scpnet-interwiki-frame, div.scpnet-interwiki-wrapper {
 		width: 18em;
 	}
 }
