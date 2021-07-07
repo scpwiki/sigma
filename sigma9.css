@@ -1538,9 +1538,7 @@ iframe.scpnet-interwiki-frame {
 	}
 }
 
-/* vim: set noet: */
-
-/* CONTENT WARNING FOR ADULT CONTENT */
+/* Content Warning for adult content */
 div#u-adult-warning {
 	width: fit-content;
 	margin: 0 auto 20px;
@@ -1569,3 +1567,10 @@ div#u-adult-warning > .error-block {
 	border: unset;
 	margin-bottom: 1em;
 }
+
+/* Page preview component -- https://scp-wiki.wikidot.com/component:preview */
+div.preview {
+	display: none;
+}
+
+/* vim: set noet: */
