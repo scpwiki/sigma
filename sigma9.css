@@ -167,7 +167,7 @@ sup {
 	font-weight: bold;
 	color: #ccc;
 	background-color: #633;
-	background: linear-gradient(to bottom, #966, #633, #300);
+	background-image: linear-gradient(to bottom, #966, #633, #300);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 	cursor: pointer;
 }
@@ -178,7 +178,7 @@ sup {
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, .25);
 	background-color: #966;
-	background: linear-gradient(to bottom, #c99, #966, #633);
+	background-image: linear-gradient(to bottom, #c99, #966, #633);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -804,7 +804,7 @@ div.sexy-box div.image-container img {
 .thread-container .post .head {
 	padding: .5em 1em;
 	background-color: #eee;
-	background: linear-gradient(to right, #eee, #eeecec);
+	background-image: linear-gradient(to right, #eee, #eeecec);
 	box-shadow: inset 2px 3px 6px rgba(0, 0, 0, .15);
 	border-radius: 5px 5px 0 0;
 }
