@@ -81,7 +81,8 @@ a:hover {
 	background-color: transparent;
 }
 
-#side-bar a:visited {
+#side-bar a:visited,
+#interwiki a:visited {
 	color: #b01;
 }
 
@@ -360,7 +361,8 @@ sup {
 	overscroll-behavior: none;
 }
 
-#side-bar .side-block {
+#side-bar .side-block,
+#interwiki .side-block {
 	padding: 10px;
 	border: 1px solid #600;
 	border-radius: 10px;
@@ -381,7 +383,8 @@ sup {
 	padding: 10px;
 }
 
-#side-bar .heading {
+#side-bar .heading,
+#interwiki .heading {
 	color: #600;
 	border-bottom: solid 1px #600;
 	padding-left: 15px;
@@ -391,11 +394,13 @@ sup {
 	font-weight: bold;
 }
 
-#side-bar p {
+#side-bar p,
+#interwiki p {
 	margin: 0;
 }
 
-#side-bar .menu-item {
+#side-bar .menu-item,
+#interwiki .menu-item {
 	margin: 2px 0;
 }
 
@@ -403,7 +408,8 @@ sup {
 	font-size: 90%; /* For sidebar item with smaller text, like SCP series links */
 }
 
-#side-bar .menu-item img {
+#side-bar .menu-item img,
+#interwiki .menu-item img {
 	width: 13px;
 	height: 13px;
 	border: 0;
@@ -412,7 +418,8 @@ sup {
 	bottom: -2px;
 }
 
-#side-bar .menu-item a {
+#side-bar .menu-item a,
+#interwiki .menu-item a {
 	font-weight: bold;
 }
 
