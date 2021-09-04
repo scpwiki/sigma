@@ -364,8 +364,9 @@ sup {
 	overscroll-behavior: none;
 }
 
+/* Interwiki accepts a little space to display its shadow */
 #interwiki .side-block {
-	margin: 5px;
+	margin: 0.5em;
 }
 
 #side-bar .side-block,
@@ -1537,8 +1538,9 @@ iframe.scpnet-interwiki-frame, div.scpnet-interwiki-wrapper {
 	width: 18em;
 }
 
+/* Move interwiki to the left by half of 1em to center-align it */
 div.scpnet-interwiki-wrapper {
-	margin-left: -5px;
+	margin-left: 0.5em;
 }
 
 iframe.scpnet-interwiki-frame {
