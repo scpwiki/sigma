@@ -361,6 +361,10 @@ sup {
 	overscroll-behavior: none;
 }
 
+#interwiki .side-block {
+	margin: 5px;
+}
+
 #side-bar .side-block,
 #interwiki .side-block {
 	padding: 10px;
