@@ -1532,21 +1532,18 @@ img, embed, video, object, iframe, table {
 	}
 }
 
+/* Interwiki is 1em wider than the sidebar to give it space for a shadow */
+iframe.scpnet-interwiki-frame, div.scpnet-interwiki-wrapper {
+	width: 18em;
+}
+
 div.scpnet-interwiki-wrapper {
-	width: 17em;
 	margin-left: -5px;
 }
 
 iframe.scpnet-interwiki-frame {
 	height: 350px;
-	width: 17em;
 	border: none;
-}
-
-@media (min-width: 768px) {
-	iframe.scpnet-interwiki-frame, div.scpnet-interwiki-wrapper {
-		width: 18em;
-	}
 }
 
 /* Content Warning for adult content */
