@@ -117,6 +117,10 @@ body {
 	color: #333;
 }
 
+#interwiki body {
+	background-color: transparent;
+}
+
 div#container-wrap {
 	background: url('https://scp-wiki.wdfiles.com/local--files/component:theme/body_bg.png') top left repeat-x;
 }
