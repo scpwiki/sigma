@@ -398,11 +398,11 @@ sup {
 	margin: 0;
 }
 
-#side-bar div.menu-item {
+#side-bar .menu-item {
 	margin: 2px 0;
 }
 
-#side-bar div.menu-item img {
+#side-bar .menu-item img {
 	width: 13px;
 	height: 13px;
 	border: 0;
@@ -411,19 +411,19 @@ sup {
 	bottom: -2px;
 }
 
-#side-bar div.menu-item a {
+#side-bar .menu-item a {
 	font-weight: bold;
 }
 
-#side-bar div.menu-item.inactive img {
+#side-bar .menu-item.inactive img {
 	opacity: .25;
 }
 
-#side-bar div.menu-item.inactive a {
+#side-bar .menu-item.inactive a {
 	color: #999;
 }
 
-#side-bar div.menu-item .sub-text {
+#side-bar .menu-item .sub-text {
 	font-size: 80%;
 	color: #666;
 }
