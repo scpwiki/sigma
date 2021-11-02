@@ -377,7 +377,7 @@ sup {
 }
 
 #side-bar .side-block.resources {
-	background: #fff0f0;
+	background: #e7f7e9; /* Changed from #fff0f0*/
 }
 
 #side-bar .side-area {
@@ -400,6 +400,10 @@ sup {
 
 #side-bar .menu-item {
 	margin: 2px 0;
+}
+
+#side-bar .menu-item.small {
+	font-size: 90%; /* For sidebar item with smaller text, like SCP series links*/
 }
 
 #side-bar .menu-item img {
@@ -429,11 +433,11 @@ sup {
 }
 
 #side-bar .collapsible-block-folded {
-	background: url('https://scp-wiki.wdfiles.com/local--files/nav:side/expand.png') 0 2px no-repeat;
+	background: none;
 }
 
 #side-bar .collapsible-block-link {
-	margin-left: 15px;
+	margin-left: 0;
 	font-weight: bold;
 }
 
@@ -444,6 +448,7 @@ sup {
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link {
 	margin-top: 10px;
 	margin-bottom: 5px;
+	margin-left: 15px;
 	font-size: 8pt;
 	color: #600;
 }
