@@ -432,10 +432,6 @@ sup {
 	color: #666;
 }
 
-#side-bar .collapsible-block-folded {
-	background: none;
-}
-
 #side-bar .collapsible-block-link {
 	margin-left: 0;
 	font-weight: bold;
