@@ -23,8 +23,10 @@ rules:
   property-case: lower
   value-keyword-case: lower
   string-quotes: single
-  color-hex-case: lower
   font-family-name-quotes: always-where-recommended
+  color-hex-case: lower
+  color-function-notation: legacy
+  alpha-value-notation: number
 
   comment-empty-line-before:
     - always
