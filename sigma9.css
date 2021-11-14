@@ -987,7 +987,7 @@ div.curved {
 }
 
 /* For FireFox */
-@-moz-document url-prefix() {
+@-moz-document 'url-prefix'() {
 	.emph {
 		/* For the environments which comply with CSS3. */
 		font-family: monospace;
