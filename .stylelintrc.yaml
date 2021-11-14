@@ -98,6 +98,11 @@ rules:
   media-feature-range-operator-space-after: always
   media-feature-range-operator-space-before: always
 
+  # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
+  property-no-vendor-prefix: null
+  value-no-vendor-prefix: null
+  at-rule-no-vendor-prefix: null
+
   # Disable this rule for now, it produces hundreds of incidents
   # and would require significant refactoring to resolve.
   no-descending-specificity: null
