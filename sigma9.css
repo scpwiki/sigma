@@ -299,6 +299,9 @@ sup {
 	max-height: 1px;
 	overflow: hidden;
 }
+#top-bar .top-bar > ul > li > a, #top-bar .mobile top-bar > ul > li > a {
+    font-weight: bold;
+}
 
 #top-bar ul li.sfhover a,
 #top-bar ul li:hover a {
@@ -767,6 +770,11 @@ div.sexy-box div.image-container img {
 	padding: 0 10px;
 }
 
+/* Collapsible Link */
+#page-content a.collapsible-block-link {
+    overflow-wrap: anywhere;
+}
+
 /* Wikiwalk Navigation */
 .footer-wikiwalk-nav {
 	font-weight: bold;
@@ -1015,36 +1023,6 @@ div.curved {
 	}
 }
 
-/* viewport */
-
-@viewport {
-	width: device-width;
-	zoom: 1;
-}
-
-/* IE viewport */
-@-ms-viewport {
-	width: device-width;
-	zoom: 1;
-}
-
-/* opera viewport */
-@-o-viewport {
-	width: device-width;
-	zoom: 1;
-}
-
-/* chrome viewport - maybe it isn't work... */
-@-webkit-viewport {
-	width: device-width;
-	zoom: 1;
-}
-
-/* firefox viewport - maybe it isn't work too... */
-@-moz-viewport {
-	width: device-width;
-	zoom: 1;
-}
 
 /* webkit scrollbar */
 ::-webkit-scrollbar {
@@ -1347,7 +1325,7 @@ img, embed, video, object, iframe, table {
 		margin: 0 4em 0 20em;
 	}
 
-	#header, #top-bar #side-bar {
+	#header, #top-bar, #side-bar {
 		max-width: 100%;
 	}
 
