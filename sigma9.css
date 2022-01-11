@@ -363,7 +363,7 @@ sup {
 	overscroll-behavior: none;
 }
 
-#side-bar .side-block {
+.side-block {
 	padding: 10px;
 	border: 1px solid #600;
 	border-radius: 10px;
