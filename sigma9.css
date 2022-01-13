@@ -299,7 +299,8 @@ sup {
 	max-height: 1px;
 	overflow: hidden;
 }
-#top-bar .top-bar > ul > li > a, #top-bar .mobile top-bar > ul > li > a {
+#top-bar .top-bar > ul > li > a,
+#top-bar .mobile top-bar > ul > li > a {
     font-weight: bold;
 }
 
