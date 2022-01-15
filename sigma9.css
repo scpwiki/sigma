@@ -299,9 +299,10 @@ sup {
 	max-height: 1px;
 	overflow: hidden;
 }
+
 #top-bar .top-bar > ul > li > a,
 #top-bar .mobile-top-bar > ul > li > a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 #top-bar ul li.sfhover a,
@@ -774,7 +775,7 @@ div.sexy-box div.image-container img {
 
 /* Collapsible Link */
 #page-content a.collapsible-block-link {
-    overflow-wrap: anywhere;
+	overflow-wrap: anywhere;
 }
 
 /* Wikiwalk Navigation */
