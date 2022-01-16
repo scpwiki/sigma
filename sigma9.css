@@ -293,11 +293,7 @@ sup {
 	border-left: solid 1px rgba(64, 64, 64, .1);
 	border-right: solid 1px rgba(64, 64, 64, .1);
 	text-decoration: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	line-height: 1px;
-	max-height: 1px;
-	overflow: hidden;
+	padding: 0.25em 1em;
 }
 #top-bar .top-bar > ul > li > a, #top-bar .mobile top-bar > ul > li > a {
     font-weight: bold;
@@ -1195,8 +1191,8 @@ img, embed, video, object, iframe, table {
 		width: 100%;
 	}
 
-	#top-bar li a {
-		padding: 10px .5em;
+	#top-bar ul li a {
+		padding: .25em .5em;
 	}
 }
 
