@@ -293,7 +293,7 @@ sup {
 	border-left: solid 1px rgba(64, 64, 64, .1);
 	border-right: solid 1px rgba(64, 64, 64, .1);
 	text-decoration: none;
-	padding: 10px min(0.75vw, 1em);
+	padding: 10px min(.75vw, 1em);
 	line-height: 1px;
 	max-height: 1px;
 	overflow: hidden;
@@ -1196,7 +1196,6 @@ img, embed, video, object, iframe, table {
 	.mobile-top-bar {
 		width: 100%;
 	}
-
 }
 
 /* Note Media Query */
