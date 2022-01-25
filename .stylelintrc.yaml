@@ -23,8 +23,10 @@ rules:
   property-case: lower
   value-keyword-case: lower
   string-quotes: single
-  color-hex-case: lower
   font-family-name-quotes: always-where-recommended
+  color-hex-case: lower
+  color-function-notation: legacy
+  alpha-value-notation: number
 
   comment-empty-line-before:
     - always
@@ -95,6 +97,11 @@ rules:
   media-feature-parentheses-space-inside: never
   media-feature-range-operator-space-after: always
   media-feature-range-operator-space-before: always
+
+  # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
+  property-no-vendor-prefix: null
+  value-no-vendor-prefix: null
+  at-rule-no-vendor-prefix: null
 
   # Disable this rule for now, it produces hundreds of incidents
   # and would require significant refactoring to resolve.

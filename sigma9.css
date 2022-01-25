@@ -159,7 +159,7 @@ sup {
 	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .8);
 }
 
-#search-top-box-form input[type=submit] {
+#search-top-box-form input[type='submit'] {
 	border: solid 1px #999;
 	border-radius: 5px;
 	padding: 2px 5px;
@@ -172,8 +172,8 @@ sup {
 	cursor: pointer;
 }
 
-#search-top-box-form input[type=submit]:hover,
-#search-top-box-form input[type=submit]:focus {
+#search-top-box-form input[type='submit']:hover,
+#search-top-box-form input[type='submit']:focus {
 	border: solid 1px #fff;
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, .25);
@@ -285,7 +285,7 @@ sup {
 	border: solid 1px #666;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
 	border-top: 0;
-	border-width: 0 1px 1px 1px;
+	border-width: 0 1px;
 	width: auto;
 }
 
@@ -293,10 +293,12 @@ sup {
 	border-left: solid 1px rgba(64, 64, 64, .1);
 	border-right: solid 1px rgba(64, 64, 64, .1);
 	text-decoration: none;
-	padding: 0.25em 1em;
+	padding: 0.25em min(.75vw, 1em);
 }
-#top-bar .top-bar > ul > li > a, #top-bar .mobile top-bar > ul > li > a {
-    font-weight: bold;
+
+#top-bar .top-bar > ul > li > a,
+#top-bar .mobile-top-bar > ul > li > a {
+	font-weight: bold;
 }
 
 #top-bar ul li.sfhover a,
@@ -376,7 +378,7 @@ sup {
 }
 
 #side-bar .side-block.resources {
-	background: #fff0f0;
+	background: #e7f7e9; /* Changed from #fff0f0 */
 }
 
 #side-bar .side-area {
@@ -399,6 +401,10 @@ sup {
 
 #side-bar .menu-item {
 	margin: 2px 0;
+}
+
+#side-bar .menu-item.small {
+	font-size: 90%; /* For sidebar item with smaller text, like SCP series links */
 }
 
 #side-bar .menu-item img {
@@ -427,12 +433,8 @@ sup {
 	color: #666;
 }
 
-#side-bar .collapsible-block-folded {
-	background: url('https://scp-wiki.wdfiles.com/local--files/nav:side/expand.png') 0 2px no-repeat;
-}
-
 #side-bar .collapsible-block-link {
-	margin-left: 15px;
+	margin-left: 0;
 	font-weight: bold;
 }
 
@@ -443,6 +445,7 @@ sup {
 #side-bar .collapsible-block-unfolded-link .collapsible-block-link {
 	margin-top: 10px;
 	margin-bottom: 5px;
+	margin-left: 15px;
 	font-size: 8pt;
 	color: #600;
 }
@@ -454,7 +457,7 @@ sup {
 
 #side-bar ul {
 	list-style-type: none;
-	padding: 0 5px 0;
+	padding: 0 5px;
 }
 
 /* CONTENT */
@@ -728,7 +731,7 @@ div.sexy-box div.image-container img {
 .scp-image-block.block-right {
 	float: right;
 	clear: right;
-	margin: 0 2em 1em 2em;
+	margin: 0 2em 1em;
 }
 
 .scp-image-block.block-left {
@@ -768,7 +771,7 @@ div.sexy-box div.image-container img {
 
 /* Collapsible Link */
 #page-content a.collapsible-block-link {
-    overflow-wrap: anywhere;
+	overflow-wrap: anywhere;
 }
 
 /* Wikiwalk Navigation */
@@ -872,7 +875,7 @@ div.sexy-box div.image-container img {
 
 .tags::before {
 	content: '';
-	padding: 0 1px 3px 1px;
+	padding: 0 1px 3px;
 	float: left;
 	position: relative;
 	top: -3px;
@@ -990,7 +993,7 @@ div.curved {
 }
 
 /* For FireFox */
-@-moz-document url-prefix() {
+@-moz-document 'url-prefix'() {
 	.emph {
 		/* For the environments which comply with CSS3. */
 		font-family: monospace;
@@ -1190,10 +1193,6 @@ img, embed, video, object, iframe, table {
 	.mobile-top-bar {
 		width: 100%;
 	}
-
-	#top-bar ul li a {
-		padding: .25em .5em;
-	}
 }
 
 /* Note Media Query */
@@ -1203,7 +1202,7 @@ img, embed, video, object, iframe, table {
 	}
 
 	#main-content {
-		margin: 0 2em 0 2em;
+		margin: 0 2em;
 	}
 
 	#header, .mobile-top-bar {
@@ -1453,7 +1452,7 @@ img, embed, video, object, iframe, table {
 		background-color: rgb(184, 134, 134);
 		overflow-y: auto;
 		z-index: 10;
-		padding: 1em 1em 0 1em;
+		padding: 1em 1em 0;
 		-webkit-transition: left .5s ease-in-out .1s;
 		-moz-transition: left .5s ease-in-out .1s;
 		-ms-transition: left .5s ease-in-out .1s;
@@ -1501,7 +1500,7 @@ div.scpnet-interwiki-wrapper {
 }
 
 iframe.scpnet-interwiki-frame {
-	height: 350px;
+	height: 400px;
 	width: 17em;
 	border: none;
 }
