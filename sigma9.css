@@ -1481,7 +1481,7 @@ div.scpnet-interwiki-wrapper {
 }
 
 iframe.scpnet-interwiki-frame {
-	height: 400px;
+	height: 0;
 	width: 17em;
 	border: none;
 }
