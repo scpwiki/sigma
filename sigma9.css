@@ -1009,11 +1009,7 @@ div.curved {
 }
 
 /* Responsive Web Design */
-img, embed, video, object, iframe, table {
-	max-width: 100%;
-}
-
-#page-content div, #page-content div table {
+div, img, embed, video, object, iframe, table {
 	max-width: 100%;
 }
 
