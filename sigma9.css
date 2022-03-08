@@ -345,10 +345,6 @@ sup {
 	right: 0;
 }
 
-/* IE7 HACK */
-#top-bar ul > li > ul {
-	*margin-top: -4px;
-}
 
 /* SIDE MENU */
 #side-bar {
@@ -990,36 +986,6 @@ div.curved {
 .emph {
 	text-emphasis-style: dot;
 	-webkit-text-emphasis-style: dot;
-}
-
-/* For FireFox */
-@-moz-document 'url-prefix'() {
-	.emph {
-		/* For the environments which comply with CSS3. */
-		font-family: monospace;
-		font-style: normal;
-		font-weight: normal;
-		background-repeat: repeat-x;
-		padding: .5em 0 0;
-		background-color: transparent;
-		background-clip: padding-box, content-box;
-		background-size: 1em 1.3em, auto;
-	}
-}
-
-/* For IE10 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	.emph {
-		/* For the environments which comply with CSS3. */
-		font-family: monospace;
-		font-style: normal;
-		font-weight: normal;
-		background-repeat: repeat-x;
-		padding: .5em 0 0;
-		background-color: transparent;
-		background-clip: padding-box, content-box;
-		background-size: 1em 1.3em, auto;
-	}
 }
 
 
