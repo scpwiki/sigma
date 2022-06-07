@@ -16,17 +16,6 @@
 
 /* COMMON */
 
-body {
-    font-family: 'Inter', BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-size: 15.5px;
-    font-feature-settings: "case", "ss01", "ss04", "zero";
-}
-
-input, textarea {
-    font-family: 'Inter', BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-}
-
-
 #content-wrap {
 	position: relative;
 	margin: 2em auto 0;
@@ -129,6 +118,12 @@ body {
 	background-color: #fff;
 	font-size: .8em;
 	color: #333;
+	font-family: "Inter", BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+	font-size: 15.5px;
+	font-feature-settings: "case", "ss01", "ss04", "zero";
+}
+input, textarea {
+	font-family: "Inter", BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
 #interwiki body {
