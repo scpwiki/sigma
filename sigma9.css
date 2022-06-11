@@ -1534,7 +1534,7 @@ img, embed, video, object, iframe, table {
 }
 
 div.scpnet-interwiki-wrapper {
-	margin-left: 0 -5px;
+	margin: 0 -5px;
 }
 
 iframe.scpnet-interwiki-frame {
