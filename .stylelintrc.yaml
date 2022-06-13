@@ -20,6 +20,7 @@ rules:
   rule-empty-line-before:
     - always
     - except: ['after-single-line-comment', 'first-nested']
+  import-notation: url
   property-case: lower
   value-keyword-case: lower
   string-quotes: single
