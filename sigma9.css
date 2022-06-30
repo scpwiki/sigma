@@ -743,8 +743,8 @@ div.sexy-box div.image-container img {
 	margin-right: 2em;
 }
 
-.page-rate-widget-box .rate-points {
-	background-color: #633 !important;
+#main-content .page-rate-widget-box .rate-points {
+	background-color: #633;
 	border: solid 1px #633;
 	border-right: 0;
 	border-radius: 5px 0 0 5px;
