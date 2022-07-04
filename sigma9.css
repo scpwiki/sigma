@@ -746,6 +746,8 @@ div.sexy-box div.image-container img {
 /* Has increased specificity to override action-area rate's stylesheet */
 div.page-rate-widget-box .rate-points {
 	background-color: #633;
+}
+.page-rate-widget-box .rate-points {
 	border: solid 1px #633;
 	border-right: 0;
 	border-radius: 5px 0 0 5px;
