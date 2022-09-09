@@ -906,6 +906,12 @@ div.page-rate-widget-box .rate-points {
 	border-radius: 5px 5px 0 0;
 }
 
+/* Adding Forum Lines */
+.post-container .post-container {
+    border-left: 2px solid gray #80808059;
+    padding-left: 0.75rem;
+}
+
 /* Hide Forum Signatures */
 .signature {
 	display: none !important;
