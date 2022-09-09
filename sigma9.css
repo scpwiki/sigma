@@ -911,6 +911,11 @@ div.page-rate-widget-box .rate-points {
 	display: none !important;
 }
 
+/* Hide Avatar Hover */
+#avatar-hover-container {
+	display: none;
+}
+
 /* Ruby by Nanimono Demonai */
 .ruby, ruby {
 	display: inline-table;
