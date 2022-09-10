@@ -908,7 +908,7 @@ div.page-rate-widget-box .rate-points {
 
 /* Adding Forum Lines */
 .post-container .post-container {
-	border-left: 2px solid gray #80808059;
+	border-left: 2px solid rgba(0,0,0,.25);
 	padding-left: .75rem;
 }
 
