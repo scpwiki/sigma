@@ -1134,7 +1134,7 @@ img, embed, video, object, iframe, table {
 	}
 
 	span, a {
-		word-break: break-all;
+		overflow-wrap: break-word;
 	}
 
 	.page-history tbody tr td:last-child {
