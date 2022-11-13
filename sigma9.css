@@ -299,7 +299,8 @@ sup {
 	border-left: solid 1px rgba(64, 64, 64, .1);
 	border-right: solid 1px rgba(64, 64, 64, .1);
 	text-decoration: none;
-	padding: .25em min(.75vw, 1em);
+	padding: 0 min(.75vw, 1em);
+	line-height: 21px; /* top bar height is fixed as its a static background image */
 }
 
 #top-bar .top-bar > ul > li > a,
