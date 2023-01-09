@@ -152,8 +152,8 @@ sup {
 /*
  * Commenting out the search box at the top while native
  * Wikidot search remains non-functional.
- */
-/*
+ *
+
 #search-top-box-input {
 	border: solid 1px #999;
 	border-radius: 5px;
