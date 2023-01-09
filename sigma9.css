@@ -17,8 +17,7 @@
 	margin: 2em auto 0;
 	max-width: 1040px;
 	min-height: 1300px;
-	height: auto !important;
-	height: 1500px;
+	height: auto;
 }
 
 h1, #page-title {
