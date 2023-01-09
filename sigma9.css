@@ -149,6 +149,7 @@ sup {
 	text-align: right;
 }
 
+/* Commenting out Search Top Box Input while native Wikidot Search remains non-functional.
 #search-top-box-input {
 	border: solid 1px #999;
 	border-radius: 5px;
@@ -163,6 +164,11 @@ sup {
 	color: #fff;
 	background-color: #633;
 	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .8);
+}
+*/
+
+#search-top-box-input {
+    display: none;
 }
 
 #search-top-box-form input[type='submit'] {
