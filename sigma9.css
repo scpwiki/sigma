@@ -300,6 +300,7 @@ sup {
 	border-right: solid 1px rgba(64, 64, 64, .1);
 	text-decoration: none;
 	padding: 0 min(.75vw, 1em);
+	
 	/* top bar height is fixed as its a static background image */
 	line-height: 21px;
 }
