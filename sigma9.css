@@ -610,7 +610,7 @@ sup {
 /* FOOTER */
 #footer {
 	clear: both;
-	font-size: 77%;
+	font-size: .77em;
 	background: #444;
 	color: #bbb;
 	margin-top: 15px;
@@ -622,7 +622,7 @@ sup {
 	display: block;
 	float: right;
 	width: 50%;
-	font-size: 100%;
+	font-size: 1em;
 	text-align: right;
 }
 
@@ -696,7 +696,7 @@ div.sexy-box div.image-container img {
 .content-panel .panel-heading {
 	padding: 2px 10px;
 	color: #fff;
-	font-size: 90%;
+	font-size: .9em;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
 }
@@ -714,7 +714,7 @@ div.sexy-box div.image-container img {
 .content-panel .panel-footer {
 	padding: 1px 10px;
 	color: #fffff0;
-	font-size: 80%;
+	font-size: .8em;
 	font-weight: bold;
 	text-align: right;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
@@ -849,7 +849,7 @@ div.page-rate-widget-box .rate-points {
 	background-color: #eee;
 	border-top: solid 1px #666;
 	padding: 2px 0;
-	font-size: 80%;
+	font-size: .8em;
 	font-weight: bold;
 	text-align: center;
 	width: 300px;
@@ -872,7 +872,7 @@ div.page-rate-widget-box .rate-points {
 /* Wikiwalk Navigation */
 .footer-wikiwalk-nav {
 	font-weight: bold;
-	font-size: 75%;
+	font-size: .75em;
 }
 
 /* Licensebox */
@@ -1206,7 +1206,7 @@ img, embed, video, object, iframe, table {
 	}
 
 	#header h1 a {
-		font-size: calc(75% + 2vw);
+		font-size: calc(.75em + 2vw);
 	}
 
 	#search-top-box-input {
@@ -1292,7 +1292,7 @@ div#u-adult-warning {
 }
 
 div#u-adult-warning > div#u-adult-header {
-	font-size: 300%;
+	font-size: 3em;
 	text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
 	color: #901;
 }
