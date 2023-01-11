@@ -9,9 +9,11 @@
 
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/Sans-Normalcy-v0.1.7.css');
-@import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/* Don't remove Bauhaus yet, still onsite dependencies to resolve */
+@import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
 
 /* COMMON */
 #content-wrap {
