@@ -18,9 +18,9 @@
 /* COMMON */
 #content-wrap {
 	position: relative;
-	margin: 1.5em auto 0;
-	max-width: 1080px;
-	min-height: 1300px;
+	margin: 1.5rem auto 0;
+	max-width: 67.5rem;
+	min-height: 80rem;
 	height: auto !important;
 	height: 1500px;
 }
@@ -54,7 +54,7 @@ h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	margin: 0 0 .6em;
 	padding: 0 0 .25em;
-	font-size: 200%;
+	font-size: 2em;
 }
 
 .meta-title p {
@@ -102,7 +102,7 @@ a.newpage {
 /* GLOBAL WIDTH */
 #header, #top-bar {
 	width: 90%;
-	max-width: 980px;
+	max-width: 64rem;
 	margin: 0 auto;
 }
 
@@ -178,7 +178,7 @@ sup {
 	border: solid 1px #999;
 	border-radius: 5px;
 	padding: 2px 5px;
-	font-size: 90%;
+	font-size: .9em;
 	font-weight: bold;
 	color: #ccc;
 	background-color: #633;
@@ -199,7 +199,7 @@ sup {
 
 #login-status {
 	color: #aaa;
-	font-size: 90%;
+	font-size: .9em;
 	z-index: 30;
 }
 
@@ -234,7 +234,7 @@ sup {
 	padding: 0;
 	clear: left;
 	float: left;
-	font-size: 105%;
+	font-size: 1.05em;
 	max-height: 38px;
 }
 
@@ -247,7 +247,7 @@ sup {
 	color: #eee;
 	background: transparent;
 	font-family: 'Sans Normalcy', 'Nanum Gothic', Arial, sans-serif;
-	font-size: 150%;
+	font-size: 1.5em;
 	text-decoration: none;
 	text-shadow: 3px 3px 5px #000;
 	letter-spacing: .9px;
@@ -275,7 +275,7 @@ sup {
 	padding: 0;
 	margin: 0 auto;
 	z-index: 20;
-	font-size: 90%;
+	font-size: .9em;
 }
 
 #top-bar ul {
@@ -367,8 +367,8 @@ sup {
 	clear: none;
 	float: none;
 	position: absolute;
-	top: .5em;
-	left: 2em;
+	top: .5rem;
+	left: 1.5rem;
 	width: 14rem;
 	padding: 0;
 	border: none;
@@ -424,7 +424,7 @@ sup {
 }
 
 #side-bar .menu-item.small {
-	font-size: 90%; /* For sidebar item with smaller text, like SCP series links */
+	font-size: .9em; /* For sidebar item with smaller text, like SCP series links */
 }
 
 #side-bar .menu-item img,
@@ -451,7 +451,7 @@ sup {
 }
 
 #side-bar .menu-item .sub-text {
-	font-size: 80%;
+	font-size: .8em;
 	color: #666;
 }
 
@@ -491,8 +491,8 @@ sup {
 @media (max-width: 767px) {
 	#top-bar .open-menu a {
 		position: fixed;
-		top: .5em;
-		left: .5em;
+		top: 1rem;
+		left: 1rem;
 		z-index: 15;
 		font-family: 'Nanum Gothic', sans-serif;
 		font-size: 30px;
@@ -517,13 +517,13 @@ sup {
 		display: block;
 		position: fixed;
 		top: 0;
-		left: -25em;
-		width: 17em;
+		left: -25rem;
+		width: 15rem;
 		height: 100%;
 		background-color: rgb(184, 134, 134);
 		overflow-y: auto;
 		z-index: 10;
-		padding: 1em 1em 0;
+		padding: 1rem 1rem 0;
 		-webkit-transition: left .5s ease-in-out .1s;
 		-o-transition: left .5s ease-in-out .1s;
 		transition: left .5s ease-in-out .1s;
@@ -556,8 +556,8 @@ sup {
 
 /* CONTENT */
 #main-content {
-	margin: 0 2em 0 18.5em;
-	padding: 1em;
+	margin: 0 1.5rem 0 18rem;
+	padding: 0.875rem;
 	position: relative;
 }
 
