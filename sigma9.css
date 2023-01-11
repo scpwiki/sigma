@@ -7,6 +7,8 @@
 
 @charset "utf-8";
 
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/Sans-Normalcy-v0.1.7.css');
 @import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
@@ -14,8 +16,8 @@
 /* COMMON */
 #content-wrap {
 	position: relative;
-	margin: 2em auto 0;
-	max-width: 1040px;
+	margin: 1.5em auto 0;
+	max-width: 1080px;
 	min-height: 1300px;
 	height: auto !important;
 	height: 1500px;
@@ -62,7 +64,7 @@ ul {
 }
 
 li, p {
-	line-height: 141%;
+	line-height: 1.5;
 }
 
 a {
@@ -112,8 +114,13 @@ a.newpage {
 
 body {
 	background-color: #fff;
-	font-size: .8em;
+	font-size: .95em;
 	color: #333;
+	font-family: "Inter", BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-feature-settings: "case", "ss01", "ss04", "zero";
+}
+input, textarea {
+    font-family: inherit;
 }
 
 #interwiki body {
@@ -237,8 +244,8 @@ sup {
 	max-height: 0;
 	color: #eee;
 	background: transparent;
-	font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
-	font-size: 180%;
+	font-family: 'Sans Normalcy', 'Nanum Gothic', Arial, sans-serif;
+	font-size: 150%;
 	text-decoration: none;
 	text-shadow: 3px 3px 5px #000;
 	letter-spacing: .9px;
@@ -360,7 +367,7 @@ sup {
 	position: absolute;
 	top: .5em;
 	left: 2em;
-	width: 17em;
+	width: 14rem;
 	padding: 0;
 	border: none;
 	display: block;
@@ -547,7 +554,7 @@ sup {
 
 /* CONTENT */
 #main-content {
-	margin: 0 2em 0 22em;
+	margin: 0 2em 0 18.5em;
 	padding: 1em;
 	position: relative;
 }
