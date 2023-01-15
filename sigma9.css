@@ -1115,7 +1115,7 @@ img, embed, video, object, iframe, table {
 	max-width: 100%;
 }
 
-#page-content div, #page-content div table {
+:where(#page-content) div {
 	max-width: 100%;
 }
 
