@@ -10,6 +10,6 @@ Sigma-9's body font. Licensed under [SIL Open Font License 1.1](https://github.c
 
 Sigma-9's header font. Licensed under [SIL Open Font License 1.1](https://github.com/scpwiki/normalcy-sans/blob/main/LICENSE).
 
-## [Nanum Gothic](https://github.com/rsms/inter)
+## [Nanum Gothic](https://fonts.google.com/specimen/Nanum+Gothic)
 
 Tertiary and fallback font. Licensed under [SIL Open Font License 1.1](https://fonts.google.com/specimen/Nanum+Gothic/about).
