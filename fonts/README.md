@@ -6,7 +6,7 @@ Sigma-9 self-hosts several fonts to reduce external depency and minimize `@impor
 
 Sigma-9's body font. Licensed under [SIL Open Font License 1.1](https://github.com/rsms/inter/blob/master/LICENSE.txt).
 
-## [Sans Normalcy](https://github.com/rsms/inter)
+ ## [Sans Normalcy](https://github.com/scpwiki/normalcy-sans)
 
 Sigma-9's header font. Licensed under [SIL Open Font License 1.1](https://github.com/scpwiki/normalcy-sans/blob/main/LICENSE).
 
