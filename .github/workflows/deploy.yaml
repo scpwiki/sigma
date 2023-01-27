@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - build-system
+      - main
 
 jobs:
   deploy:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
-        #if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          branch: build-system-out
+          branch: gh-pages
           folder: dist
