@@ -1,0 +1,46 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+        # target: dist/
+      - name: Add static files, create dist
+        run: mv misc dist
+
+        # target: dist/fonts/
+      - name: Add fonts
+        run: mv fonts dist
+
+        # target: dist/css/
+      - name: Prepare CSS
+        run: |
+          mkdir dist/css
+          cp sigma9.css dist/css
+
+      - name: Minify CSS
+        uses: nizarmah/auto-minify@v2.1
+        with:
+          output: dist/css
+
+      - name: Add full CSS
+        run: |
+          mv dist/css/sigma9.css dist/css/sigma9.min.css
+          mv sigma9.css          dist/css/sigma9.css
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          branch: gh-pages
+          folder: dist
