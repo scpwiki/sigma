@@ -1,6 +1,9 @@
 # Output
 dist/
 
+# Dependencies
+node_modules/
+
 # Miscellaneous
 .*.sw?
 *~
