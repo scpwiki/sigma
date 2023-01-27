@@ -8,50 +8,51 @@
 @charset "utf-8";
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 /* Don't remove Bauhaus yet, still onsite dependencies to resolve */
 @import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
 
 /* FONT-FACE */
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://scpwiki.github.io/sigma9/fonts/Inter-roman.var.woff2?v=3.19') format('woff2');
-    font-named-instance: 'Regular';
-}
-@font-face {
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://scpwiki.github.io/sigma9/fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
-    font-named-instance: 'Italic';
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('https://scpwiki.github.io/sigma9/fonts/Inter-roman.var.woff2?v=3.19') format('woff2');
 }
 
 @font-face {
-    font-family: 'Sans Normalcy';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('https://scpwiki.github.io/sigma9/fonts/Sans-Normalcy.woff2') format('woff2');
+	font-family: Inter;
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url('https://scpwiki.github.io/sigma9/fonts/Inter-italic.var.woff2?v=3.19') format('woff2');
 }
 
 @font-face {
-    font-family: 'Nanum Gothic';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('https://scpwiki.github.io/sigma9/fonts/NanumGothic-Regular.woff2') format('woff2');
+	font-family: 'Sans Normalcy';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('https://scpwiki.github.io/sigma9/fonts/Sans-Normalcy.woff2') format('woff2');
 }
+
 @font-face {
-    font-family: 'Nanum Gothic';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('https://scpwiki.github.io/sigma9/fonts/NanumGothic-Bold.woff2') format('woff2');
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('https://scpwiki.github.io/sigma9/fonts/NanumGothic-Regular.woff2') format('woff2');
 }
-	
+
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('https://scpwiki.github.io/sigma9/fonts/NanumGothic-Bold.woff2') format('woff2');
+}
+
 /* COMMON */
 #content-wrap {
 	position: relative;
@@ -155,11 +156,23 @@ body {
 	background-color: #fff;
 	font-size: .95em;
 	color: #333;
-	font-family: "Inter", BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    font-feature-settings: "case", "ss01", "ss04", "zero";
+	font-family:
+		Inter,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Fira Sans',
+		'Droid Sans',
+		'Helvetica Neue',
+		sans-serif;
+	font-feature-settings: 'case', 'ss01', 'ss04', 'zero';
 }
+
 input, textarea {
-    font-family: inherit;
+	font-family: inherit;
 }
 
 #interwiki body {
@@ -460,8 +473,9 @@ sup {
 	margin: 2px 0;
 }
 
+/* For sidebar item with smaller text, like SCP series links */
 #side-bar .menu-item.small {
-	font-size: .9em; /* For sidebar item with smaller text, like SCP series links */
+	font-size: .9em;
 }
 
 #side-bar .menu-item img,
@@ -594,7 +608,7 @@ sup {
 /* CONTENT */
 #main-content {
 	margin: 0 1.5rem 0 18rem;
-	padding: 0.875rem;
+	padding: .875rem;
 	position: relative;
 }
 
@@ -623,7 +637,7 @@ sup {
 }
 
 .yui-navset .yui-nav .selected a,
-.yui-navset .yui-nav .selected a:focus, /* no focus effect for selected */
+.yui-navset .yui-nav .selected a:focus,
 .yui-navset .yui-nav .selected a:hover { /* no hover effect for selected */
 	background: #700 url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png') repeat-x left -1400px; /* selected tab background */
 	color: #fff;
