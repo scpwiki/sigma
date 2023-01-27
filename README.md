@@ -13,6 +13,6 @@ This theme is available under the wiki's [Creative Commons Attribution-ShareAlik
 
 ### Updating the Theme
 
-When new changes are pushed to the repository, they are not automatically reflected in the mainsite. You must open the page [`component:theme`](http://www.scp-wiki.net/component:theme), and copy the CSS from `sigma9.css` into the `[[code]]` block.
+When new changes are pushed to the repository, they are not automatically reflected in the mainsite. You must open the page [`component:theme`](https://scpwiki.com/component:theme), and copy the CSS from `sigma9.css` into the `[[code]]` block.
 
 Contrary to legend, it is not necessary to "re-select" the CSS source in the wiki's administrative panel. Updating the code block is sufficient.

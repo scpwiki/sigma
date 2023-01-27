@@ -59,8 +59,7 @@
 	margin: 1.5rem auto 0;
 	max-width: 67.5rem;
 	min-height: 80rem;
-	height: auto !important;
-	height: 1500px;
+	height: auto;
 }
 
 h1, #page-title {
@@ -208,6 +207,11 @@ sup {
 	text-align: right;
 }
 
+/*
+ * Commenting out the search box at the top while native
+ * Wikidot search remains non-functional.
+ *
+
 #search-top-box-input {
 	border: solid 1px #999;
 	border-radius: 5px;
@@ -222,6 +226,11 @@ sup {
 	color: #fff;
 	background-color: #633;
 	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .8);
+}
+*/
+
+#search-top-box-input {
+	display: none;
 }
 
 #search-top-box-form input[type='submit'] {
@@ -1176,7 +1185,7 @@ img, embed, video, object, iframe, table {
 	max-width: 100%;
 }
 
-#page-content div, #page-content div table {
+:where(#page-content) div {
 	max-width: 100%;
 }
 
