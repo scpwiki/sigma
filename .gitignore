@@ -1,0 +1,7 @@
+# Output
+dist/
+
+# Miscellaneous
+.*.sw?
+*~
+*#
