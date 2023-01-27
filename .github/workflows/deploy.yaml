@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - build-system
 
 jobs:
   deploy:
@@ -42,5 +42,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
-          branch: gh-pages
+          branch: build-system-out
           folder: dist
