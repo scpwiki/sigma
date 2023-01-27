@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "./build.sh",
+    "clean": "rm -rf dist",
     "lint": "stylelint sigma9.css",
     "lint:fix": "stylelint --fix sigma9.css",
     "minify": "minify sigma9.css > dist/css/sigma9.min.css"
