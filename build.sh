@@ -16,4 +16,4 @@ cp -a fonts dist
 # Copy and minify CSS
 mkdir -p dist/css
 cp sigma9.css dist/css
-uglifyjs --compress sigma9.css -o dist/css/sigma9.min.css
+npm run minify

@@ -10,12 +10,13 @@
     "url": "https://github.com/scpwiki/sigma9"
   },
   "devDependencies": {
-    "stylelint": "^14.16.1",
-    "uglify-js": "^3.17.4"
+    "minify": "^9.2.0",
+    "stylelint": "^14.16.1"
   },
   "scripts": {
     "build": "./build.sh",
     "lint": "stylelint sigma9.css",
-    "lint:fix": "stylelint --fix sigma9.css"
+    "lint:fix": "stylelint --fix sigma9.css",
+    "minify": "minify sigma9.css > dist/css/sigma9.min.css"
   }
 }
