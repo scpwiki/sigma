@@ -167,7 +167,7 @@ body {
 		'Droid Sans',
 		'Helvetica Neue',
 		sans-serif;
-	font-feature-settings: 'case', 'ss01', 'ss04', 'zero';
+	font-feature-settings: 'case', 'ss01', 'ss04';
 }
 
 input, textarea {
