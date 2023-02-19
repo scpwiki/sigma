@@ -907,7 +907,6 @@ div.page-rate-widget-box .rate-points {
 
 .scp-image-block img {
 	border: 0;
-	width: 300px;
 }
 
 .scp-image-block .scp-image-caption {
@@ -917,7 +916,6 @@ div.page-rate-widget-box .rate-points {
 	font-size: .8em;
 	font-weight: bold;
 	text-align: center;
-	width: 300px;
 }
 
 .scp-image-block > p {
