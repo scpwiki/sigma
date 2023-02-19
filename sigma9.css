@@ -472,6 +472,11 @@ sup {
 	font-weight: bold;
 }
 
+#side-bar .heading:where(:first-child),
+#interwiki .heading:where(:first-child) {
+	margin-top: 0;
+}
+
 #side-bar p,
 #interwiki p {
 	margin: 0;
