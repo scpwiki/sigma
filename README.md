@@ -1,8 +1,8 @@
 ## Sigma-9
 
 <p>
-  <a href="https://github.com/scpwiki/sigma9/actions?query=workflow%3A%22Stylelint%22">
-    <img src="https://github.com/scpwiki/sigma9/workflows/Stylelint/badge.svg"
+  <a href="https://github.com/scpwiki/sigma9/actions?query=workflow%3A%22Lint%22">
+    <img src="https://github.com/scpwiki/sigma9/workflows/Lelint/badge.svg"
          alt="Rust CI badge">
   </a>
 </p>
