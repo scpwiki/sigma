@@ -25,9 +25,11 @@ $ npm install
 Once this is configured, there are a few scripts you can take advantage of:
 
 ```
-$ npm run build     # Builds the theme and outputs to dist/
-$ npm run clean     # Deletes dist/
-$ npm run lint      # Runs stylelint, reporting any issues
-$ npm run lint:fix  # Runs stylelint, automatically fixing issues
-$ npm run minify    # Minifies sigma9.css and places it into dist/
+$ npm run build         # Builds the theme and outputs to dist/
+$ npm run clean         # Deletes dist/
+$ npm run stylelint     # Runs stylelint, reporting any code issues
+$ npm run stylelint:fix # Runs stylelint, automatically fixing issues
+$ npm run prettier      # Runs prettier, reporting any formatting issues
+$ npm run prettier:fix  # Runs prettier, automatically fixing issues
+$ npm run minify        # Minifies sigma9.css and places it into dist/
 ```
