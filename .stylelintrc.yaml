@@ -4,27 +4,26 @@ extends: stylelint-config-standard
 
 rules:
   max-nesting-depth: 2
-
   no-unknown-animations: true
 
   rule-empty-line-before:
     - always
     - except: ['after-single-line-comment', 'first-nested']
+
   import-notation: url
+  selector-type-case: lower
   value-keyword-case: lower
   font-family-name-quotes: always-where-recommended
   color-function-notation: legacy
   alpha-value-notation: number
+  custom-property-empty-line-before: never
 
   comment-empty-line-before:
     - always
     - except: ['first-nested']
+
   comment-whitespace-inside: always
   comment-word-disallowed-list: ['TODO', 'FIXME']
-
-  custom-property-empty-line-before: never
-
-  selector-type-case: lower
 
   # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
   property-no-vendor-prefix: null
