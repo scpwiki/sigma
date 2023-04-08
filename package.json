@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "minify": "^9.2.0",
-    "stylelint": "^14.16.1"
+    "prettier": "^2.8.7",
+    "stylelint": "^15.4.0"
   },
   "scripts": {
     "build": "./build.sh",
