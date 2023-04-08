@@ -19,6 +19,8 @@
     "clean": "rm -rf dist",
     "lint": "stylelint sigma9.css",
     "lint:fix": "stylelint --fix sigma9.css",
-    "minify": "minify sigma9.css > dist/css/sigma9.min.css"
+    "minify": "minify sigma9.css > dist/css/sigma9.min.css",
+    "prettier": "prettier sigma9.css",
+    "prettier:fix": "prettier --fix sigma9.css"
   }
 }
