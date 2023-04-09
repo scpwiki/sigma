@@ -1,12 +1,6 @@
 ## Sigma-9
 
-<p>
-  <a href="https://github.com/scpwiki/sigma9/actions?query=workflow%3A%22Lint%22">
-    <img src="https://github.com/scpwiki/sigma9/workflows/Lelint/badge.svg"
-         alt="Rust CI badge">
-  </a>
-</p>
-
+[![Lint](https://github.com/scpwiki/sigma9/actions/workflows/lint.yaml/badge.svg)](https://github.com/scpwiki/sigma9/actions/workflows/lint.yaml)
 
 This is the repository for the [Sigma-9 theme](https://scpwiki.com/component:theme), the default CSS used to style the [SCP Wiki](http://www.scpwiki.com). It was originally created by [Aelanna](http://www.wikidot.com/user:info/aelanna) and is presently maintained by the SCP Wiki Technical Team.
 
