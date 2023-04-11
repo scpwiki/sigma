@@ -25,5 +25,5 @@ $ npm run stylelint     # Runs stylelint, reporting any code issues
 $ npm run stylelint:fix # Runs stylelint, automatically fixing issues
 $ npm run prettier      # Runs prettier, reporting any formatting issues
 $ npm run prettier:fix  # Runs prettier, automatically fixing issues
-$ npm run minify        # Minifies sigma9.css and places it into dist/
+$ npm run minify        # Minifies sigma.css and places it into dist/
 ```
