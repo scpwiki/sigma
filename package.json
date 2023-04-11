@@ -1,5 +1,5 @@
 {
-  "name": "sigma9",
+  "name": "sigma-theme",
   "description": "SCP Wiki site theme (build process)",
   "version": "1.0.0",
   "authors": "SCP Wiki Technical Team",
@@ -7,7 +7,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/scpwiki/sigma9"
+    "url": "https://github.com/scpwiki/sigma"
   },
   "devDependencies": {
     "minify": "^9.2.0",
@@ -18,10 +18,10 @@
   "scripts": {
     "build": "./build.sh",
     "clean": "rm -rf dist",
-    "minify": "minify sigma9.css > dist/css/sigma9.min.css",
-    "stylelint": "stylelint sigma9.css",
-    "stylelint:fix": "stylelint --fix sigma9.css",
-    "prettier": "prettier -c sigma9.css",
-    "prettier:fix": "prettier -w sigma9.css"
+    "minify": "minify sigma.css > dist/css/sigma.min.css",
+    "stylelint": "stylelint sigma.css",
+    "stylelint:fix": "stylelint --fix sigma.css",
+    "prettier": "prettier -c sigma.css",
+    "prettier:fix": "prettier -w sigma.css"
   }
 }
