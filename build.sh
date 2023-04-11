@@ -10,8 +10,8 @@ mkdir -p dist
 # Install files
 cp misc/* misc/.gitattributes dist
 
-# Copy fonts
-cp -a fonts dist
+# Copy fonts and images
+cp -a fonts images dist
 
 # Copy and minify CSS
 mkdir -p dist/css
