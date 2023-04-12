@@ -186,8 +186,8 @@ textarea {
 }
 
 div#container-wrap {
-	background: url('https://cdn.jsdelivr.net/gh/scpwiki/sigma@main/images/body_bg.png')
-		top left repeat-x;
+	background: url('https://scpwiki.github.io/sigma/images/body_bg.png') top
+		left repeat-x;
 }
 
 sup {
@@ -202,7 +202,7 @@ sup {
 	position: relative;
 	z-index: 10;
 	padding-bottom: 22px; /* FOR MENU */
-	background: url('https://cdn.jsdelivr.net/gh/scpwiki/sigma@main/images/header-logo.svg')
+	background: url('https://scpwiki.github.io/sigma/images/header-logo.svg')
 		10px 40px no-repeat;
 	background-size: 100px;
 	background-position: 10px 64%;
