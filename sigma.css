@@ -136,11 +136,6 @@ a:hover {
 	background-color: transparent;
 }
 
-#side-bar a:visited,
-#interwiki a:visited {
-	color: #b01;
-}
-
 a.newpage {
 	color: #d61;
 	text-decoration: none;
@@ -509,6 +504,11 @@ sup {
 	margin-right: 2px;
 	position: relative;
 	bottom: -2px;
+}
+
+#side-bar a,
+#interwiki a {
+	color: #b01;
 }
 
 #side-bar .menu-item a,
