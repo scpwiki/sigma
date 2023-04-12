@@ -186,8 +186,8 @@ textarea {
 }
 
 div#container-wrap {
-	background: url('https://scpwiki.github.io/sigma/images/body_bg.png')
-		top left repeat-x;
+	background: url('https://scpwiki.github.io/sigma/images/body_bg.png') top
+		left repeat-x;
 }
 
 sup {
