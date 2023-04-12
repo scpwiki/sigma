@@ -437,7 +437,7 @@ sup {
 	position: absolute;
 	top: 0.5rem;
 	left: 1.5rem;
-	width: 14rem;
+	width: 13.75rem;
 	padding: 0;
 	border: none;
 	display: block;
@@ -621,8 +621,8 @@ sup {
 
 /* CONTENT */
 #main-content {
-	margin: 0 1.5rem 0 18rem;
-	padding: 0.875rem;
+	margin: 0 1.5rem 0 17rem;
+	padding: 0.75rem;
 	position: relative;
 }
 
