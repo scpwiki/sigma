@@ -2,7 +2,7 @@
 
 [![Lint](https://github.com/scpwiki/sigma/actions/workflows/lint.yaml/badge.svg)](https://github.com/scpwiki/sigma/actions/workflows/lint.yaml)
 
-This is the repository for the [Sigma-10 theme](https://scpwiki.com/theme:site), the default CSS used to style the [SCP Wiki](https://scpwiki.com). It was originally created by [Aelanna](https://www.wikidot.com/user:info/aelanna) and is presently maintained by the SCP Wiki Technical Team.
+This is the repository for the [Sigma-10 theme](https://scpwiki.com/theme:site), the default CSS used to style the [SCP Wiki](https://scpwiki.com). It was originally created by [Aelanna](https://www.wikidot.com/user:info/aelanna) under the name Sigma-9 and is presently maintained by the SCP Wiki Technical Team.
 
 This theme is available under the wiki's [Creative Commons Attribution-ShareAlike 3.0 license (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/).
 
