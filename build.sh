@@ -7,9 +7,6 @@ set -eu
 # Create directory structure
 mkdir -p dist
 
-# Install files
-cp misc/* misc/.gitattributes dist
-
 # Copy fonts and images
 cp -a fonts images dist
 
