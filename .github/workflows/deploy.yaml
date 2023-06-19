@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  BUCKET_PATH: theme/en/sigma
+
 jobs:
   build-and-deploy:
     name: Deploy CSS
@@ -36,13 +39,13 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: dist
-          DEST_DIR: theme/en/sigma
+          DEST_DIR: ${{ env.BUCKET_PATH }}
 
       - name: Invalidate CloudFront
         uses: chetan/invalidate-cloudfront-action@v2
         env:
           DISTRIBUTION: ${{ secrets.CF_DISTRIBUTION }}
-          PATHS: /theme/en/sigma
+          PATHS: /${{ env.BUCKET_PATH }}
           AWS_REGION: ${{ AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
