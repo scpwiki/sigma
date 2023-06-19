@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '*.css'
+      - '.github/workflows/lint.yaml'
 
 jobs:
   lint:
