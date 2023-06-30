@@ -923,6 +923,7 @@ div.page-rate-widget-box .rate-points {
 
 .scp-image-block img {
 	border: 0;
+	width: 100%;
 }
 
 .scp-image-block .scp-image-caption {
