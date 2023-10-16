@@ -174,6 +174,7 @@ body {
 input,
 textarea {
 	font-family: inherit;
+	font-feature-settings: inherit;
 }
 
 #interwiki body {
@@ -590,7 +591,6 @@ sup {
 
 	#top-bar .open-menu a:hover {
 		text-decoration: none;
-		-webkit-box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
 		box-shadow: 0 0 20px 3px rgba(153, 153, 153, 1);
 	}
 
@@ -605,8 +605,6 @@ sup {
 		overflow-y: auto;
 		z-index: 10;
 		padding: 1rem 1rem 0;
-		-webkit-transition: left 0.5s ease-in-out 0.1s;
-		-o-transition: left 0.5s ease-in-out 0.1s;
 		transition: left 0.5s ease-in-out 0.1s;
 	}
 
@@ -732,7 +730,6 @@ div.sexy-box div.image-container img {
 	border-radius: 10px;
 	background-color: #999990;
 	margin: 10px 0 15px;
-	box-shadow: 3px 3px 6px #bbb;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5),
 		inset 0 1px rgba(255, 255, 255, 0.3),
 		inset 0 10px rgba(255, 255, 255, 0.2),
@@ -953,8 +950,6 @@ div.page-rate-widget-box .rate-points {
 	font-weight: bold;
 	opacity: 0.5;
 	color: inherit;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 }
 
@@ -1022,8 +1017,6 @@ rt {
 	border: 1px solid;
 	border-color: #ddd #bbb #bbb #ddd;
 	border-bottom-width: 2px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	background-color: #f9f9f9;
 	padding: 1px 3px;
@@ -1043,11 +1036,7 @@ rt {
 	background: #666;
 	color: #fff;
 	text-decoration: none;
-	-moz-border-radius-bottomright: 4px;
-	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	-webkit-border-top-right-radius: 4px;
 	border-top-right-radius: 4px;
 }
 
@@ -1073,12 +1062,8 @@ rt {
 	float: left;
 	width: 4px;
 	height: 4px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	background: #fff;
-	-moz-box-shadow: -1px -1px 2px #004977;
-	-webkit-box-shadow: -1px -1px 2px #333;
 	box-shadow: -1px -1px 2px #333;
 }
 
@@ -1199,8 +1184,6 @@ table {
 		max-width: 90%;
 		margin: 0 5%;
 		padding: 0;
-		-webkit-transition: 0.5s ease-in-out 0.1s;
-		-o-transition: 0.5s ease-in-out 0.1s;
 		transition: 0.5s ease-in-out 0.1s;
 	}
 
