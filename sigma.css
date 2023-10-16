@@ -624,6 +624,7 @@ sup {
 	margin: 0 1.5rem 0 17rem;
 	padding: 0.75rem;
 	position: relative;
+	overflow-wrap: break-word;
 }
 
 /* ACTUALLY HIDE HIDDEN TAGS */
@@ -1202,11 +1203,6 @@ table {
 		-webkit-transition: 0.5s ease-in-out 0.1s;
 		-o-transition: 0.5s ease-in-out 0.1s;
 		transition: 0.5s ease-in-out 0.1s;
-	}
-
-	span,
-	a {
-		overflow-wrap: break-word;
 	}
 
 	.page-history tbody tr td:last-child {
