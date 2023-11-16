@@ -977,6 +977,10 @@ div.page-rate-widget-box .rate-points {
 	border-radius: 5px 5px 0 0;
 }
 
+.thread-container .post .content {
+	contain: paint;
+}
+
 /* Adding Forum Lines */
 .post-container .post-container {
 	border-left: 2px solid rgba(0, 0, 0, 0.25);
