@@ -1360,9 +1360,4 @@ div#u-adult-warning > .error-block {
 	margin-bottom: 1em;
 }
 
-/* Page preview component -- https://scp-wiki.wikidot.com/component:preview */
-div.preview {
-	display: none;
-}
-
 /* vim: set noet: */
