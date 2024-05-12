@@ -1361,6 +1361,7 @@ div#u-adult-warning > .error-block {
 }
 
 /* fix for adblocker accidentally blocking fileupload pane from displaying */
+
 /*
 	Details: EasyList update 2024.05.10; adding AC_OETags.js to their blocklist
 
@@ -1372,6 +1373,7 @@ div#u-adult-warning > .error-block {
 
 	TODO: in the future, if no longer a problem, remove this fix
 */
+
 #file-upload-box-ajax {
 	 display: block !important;
 } 
