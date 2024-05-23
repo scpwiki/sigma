@@ -1371,18 +1371,14 @@ div#u-adult-warning > .error-block {
 	margin-bottom: 1em;
 }
 
-/* fix for adblocker accidentally blocking fileupload pane from displaying */
-
 /*
-	Details: EasyList update 2024.05.10; adding AC_OETags.js to their blocklist
+	Fix for adblocker accidentally blocking file upload pane from displaying
+	EasyList update 2024.05.10 added AC_OETags.js to their blocklist
 
 	Wikidot uses AC_OETags.js to switch between the regular Ajax and the (now-defunct) Flash upload panes
-	Both has inline 'display: none', which is controlled by activation of AC_OETags.js
+	Both have inline 'display: none', which is controlled by activation of AC_OETags.js
 
 	Blockers like uBlock Origin uses EasyList, resulting in accidental breakge on the wiki
-	Hence the CSS below
-
-	TODO: in the future, if no longer a problem, remove this fix
 */
 
 #file-upload-box-ajax {
