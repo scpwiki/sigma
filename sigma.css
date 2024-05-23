@@ -69,6 +69,7 @@
 	font-display: swap;
 	src: url('https://scpwiki.github.io/sigma/fonts/RedactRect.woff2')
 		format('woff2');
+	unicode-range: U+2588;
 }
 
 /* COMMON */
