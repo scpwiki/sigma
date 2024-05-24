@@ -13,3 +13,7 @@ Sigma-9's header font. Licensed under [SIL Open Font License 1.1](https://github
 ## [Nanum Gothic](https://fonts.google.com/specimen/Nanum+Gothic)
 
 Tertiary and fallback font. Licensed under [SIL Open Font License 1.1](https://fonts.google.com/specimen/Nanum+Gothic/about).
+
+## RedactRect
+
+Provides a fallback redaction character (FULL BLOCK, U+2588) that matches the width of Inter. Licensed under SIL Open Font License 1.1, copyright The SCP Wiki.
