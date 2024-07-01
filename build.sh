@@ -14,3 +14,4 @@ cp -a fonts images dist
 mkdir -p dist/css
 cp sigma.css dist/css
 npm run minify
+[[ -f dist/css/sigma.min.css ]]
