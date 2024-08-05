@@ -11,29 +11,13 @@
 
 @charset "utf-8";
 
+@import url('https://rsms.me/inter/inter.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 /* Don't remove Bauhaus yet, still onsite dependencies to resolve */
 @import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
 
 /* FONT-FACE */
-@font-face {
-	font-family: Inter;
-	font-style: normal;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('https://cdn.scpwiki.com/theme/en/sigma/fonts/Inter-roman.var.woff2?v=3.19')
-		format('woff2');
-}
-
-@font-face {
-	font-family: Inter;
-	font-style: italic;
-	font-weight: 100 900;
-	font-display: swap;
-	src: url('https://cdn.scpwiki.com/theme/en/sigma/fonts/Inter-italic.var.woff2?v=3.19')
-		format('woff2');
-}
 
 @font-face {
 	font-family: 'Sans Normalcy';
@@ -158,7 +142,7 @@ body {
 	background-color: #fff;
 	font-size: 0.95em;
 	color: #333;
-	font-family: Inter, RedactRect, BlinkMacSystemFont, 'Segoe UI', Roboto,
+	font-family: InterVariable, RedactRect, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 		sans-serif;
 	font-feature-settings: 'case', 'ss01', 'ss04';
