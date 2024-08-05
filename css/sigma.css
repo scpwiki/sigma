@@ -142,9 +142,9 @@ body {
 	background-color: #fff;
 	font-size: 0.95em;
 	color: #333;
-	font-family: InterVariable, RedactRect, BlinkMacSystemFont, 'Segoe UI', Roboto,
-		Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
+	font-family: InterVariable, RedactRect, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
 	font-feature-settings: 'case', 'ss01', 'ss04';
 }
 
