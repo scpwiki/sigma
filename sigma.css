@@ -45,24 +45,6 @@
 }
 
 @font-face {
-	font-family: 'Nanum Gothic';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url('https://cdn.scpwiki.com/theme/en/sigma/fonts/NanumGothic-Regular.woff2')
-		format('woff2');
-}
-
-@font-face {
-	font-family: 'Nanum Gothic';
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src: url('https://cdn.scpwiki.com/theme/en/sigma/fonts/NanumGothic-Bold.woff2')
-		format('woff2');
-}
-
-@font-face {
 	font-family: RedactRect;
 	font-style: normal;
 	font-weight: 400;
@@ -193,8 +175,8 @@ textarea {
 }
 
 div#container-wrap {
-	background: url('https://cdn.scpwiki.com/theme/en/sigma/images/body_bg.svg') top
-		left repeat-x;
+	background: url('https://cdn.scpwiki.com/theme/en/sigma/images/body_bg.svg')
+		top left repeat-x;
 }
 
 sup {
@@ -587,7 +569,8 @@ sup {
 		top: 1rem;
 		left: 1rem;
 		z-index: 15;
-		font-family: 'Nanum Gothic', sans-serif;
+		font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+			Helvetica, Roboto, sans-serif;
 		font-size: 30px;
 		font-weight: 700;
 		width: 30px;
