@@ -142,7 +142,7 @@ body {
 	background-color: #fff;
 	font-size: 0.95em;
 	color: #333;
-	font-family: InterVariable, RedactRect, BlinkMacSystemFont, 'Segoe UI',
+	font-family: InterVariable, RedactRect, Inter, BlinkMacSystemFont, 'Segoe UI',
 		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
 		'Helvetica Neue', sans-serif;
 	font-feature-settings: 'case', 'ss01', 'ss04';
@@ -553,7 +553,7 @@ sup {
 		top: 1rem;
 		left: 1rem;
 		z-index: 15;
-		font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+		font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Times New Roman',
 			Helvetica, Roboto, sans-serif;
 		font-size: 30px;
 		font-weight: 700;
