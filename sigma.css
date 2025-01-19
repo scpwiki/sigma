@@ -1361,7 +1361,7 @@ div#u-adult-warning > .error-block {
 */
 
 .unflad-user-abusive {
-    color: #844;
+	color: #844;
 	font-size: 150%;
 	border: 1px solid #000;
 	padding: 3px;
