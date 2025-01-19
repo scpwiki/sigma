@@ -1359,6 +1359,7 @@ div#u-adult-warning > .error-block {
     when selecting the 'The User Is Abusive' option, due to a wikido typo
     'unflad-user-abusive' is an intentional typo in this code.
 */
+
 .unflad-user-abusive {
     color: #844;
 	font-size: 150%;
