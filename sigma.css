@@ -94,7 +94,8 @@ ul {
 
 li,
 p,
-.footnote-footer {
+.footnote-footer,
+.footnote .f-content {
 	line-height: 1.5;
 }
 
