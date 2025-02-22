@@ -93,7 +93,8 @@ ul {
 }
 
 li,
-p {
+p,
+.footnote-footer {
 	line-height: 1.5;
 }
 
