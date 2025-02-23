@@ -95,7 +95,9 @@ ul {
 li,
 p,
 .footnote-footer,
-.footnote .f-content {
+.footnote .f-content,
+.bibitems .bibitem,
+.reference .r-content {
 	line-height: 1.5;
 }
 
