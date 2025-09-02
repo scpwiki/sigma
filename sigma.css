@@ -1381,7 +1381,7 @@ div#u-adult-warning > .error-block {
 	informing users of this bug and directing them to fix it.
 
 	However, we don't want this element to display if Sigma theme has loaded,
-	which would indicate that the bug has been fixed.
+	because if Sigma has loaded, then the user has fixed the bug on their device.
 	
 	As such, the following CSS rule hides it.
 */
