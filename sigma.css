@@ -1378,7 +1378,7 @@ div#u-adult-warning > .error-block {
 	be fixed by clearing the browser's cache.
 	
 	As a consequence, an element has been added to the SCP Wiki's sidebar
-	informing users of this bug and directs them to fix it.
+	informing users of this bug and directing them to fix it.
 
 	However, we don't want this element to display if Sigma theme has loaded,
 	which would indicate that the bug has been fixed.
