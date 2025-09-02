@@ -1377,7 +1377,7 @@ div#u-adult-warning > .error-block {
 	Sigma theme to occasionally not load on iOS devices. This bug can
 	be fixed by clearing the browser's cache.
 	
-	As a consequence, an element has been added to the SCP Wiki's sidebar
+	As a consequence, an element will likely be added to the SCP Wiki's sidebar
 	informing users of this bug and directing them to fix it.
 
 	However, we don't want this element to display if Sigma theme has loaded,
