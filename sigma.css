@@ -1383,7 +1383,10 @@ div#u-adult-warning > .error-block {
 	However, we don't want this element to display if Sigma theme has loaded,
 	because if Sigma has loaded, then the user has fixed the bug on their device.
 	
-	As such, the following CSS rule hides it.
+	As such, the following CSS rule hides it. Specificity has been artificially
+	increased with an id selector and !important to counteract weird cases
+	(e.g. an obscure SCP Wiki theme that 'display: block's everything in
+	the sidebar.
 */
 
 #side-bar .ios-cache-issue-notification {
