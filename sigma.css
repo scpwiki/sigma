@@ -1391,13 +1391,14 @@ div#u-adult-warning > .error-block {
 */
 
 #side-bar .ios-cache-issue-notification {
-  display: none !important;
+	display: none !important;
 }
 
 /*
   Make the page edit lock timer monospaced so it does not shift page layout
 	as it counts down.
 */
+
 #lock-timer {
 	font-variant-numeric: tabular-nums;
 }
