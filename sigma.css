@@ -1395,7 +1395,7 @@ div#u-adult-warning > .error-block {
 }
 
 /*
-  Make the page edit lock	timer monospaced so it does not shift page layout
+  Make the page edit lock timer monospaced so it does not shift page layout
 	as it counts down. The font-family property is set to 'monospace, monospace'
 	instead of 'monospace' because this makes it match the surrounding font size.
 */
