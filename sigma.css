@@ -1377,7 +1377,7 @@ div#u-adult-warning > .error-block {
 	Sigma theme to occasionally not load on iOS devices. This bug can
 	be fixed by clearing the browser's cache.
 
-	As a consequence, an element will likely be added to the SCP Wiki's sidebar
+	As a consequence, an element will likely be added to the SCP Wiki's top bar
 	informing users of this bug and directing them to fix it. In fact, by
 	the time you are reading this, it may have already been added.
 
@@ -1387,10 +1387,10 @@ div#u-adult-warning > .error-block {
 	As such, the following CSS rule hides it. Specificity has been artificially
 	increased with an id selector and !important to counteract weird cases.
 	(e.g. an obscure SCP Wiki theme that applies 'display: block'
-	to everything in the sidebar)
+	to everything in the top bar)
 */
 
-#side-bar .ios-cache-issue-notification {
+#top-bar .ios-cache-issue-notification {
 	display: none !important;
 }
 
