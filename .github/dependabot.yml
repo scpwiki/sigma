@@ -1,6 +1,5 @@
-# Config documentation: https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# Documentation: https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configure-version-updates
 
-version: 2
 updates:
   - package-ecosystem: npm
     directory: /
