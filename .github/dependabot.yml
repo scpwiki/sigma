@@ -1,5 +1,6 @@
-# Documentation: https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configure-version-updates
+# Config documentation: https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference#configuration-options-for-dependabotyml
 
+version: 2
 updates:
   - package-ecosystem: npm
     directory: /
