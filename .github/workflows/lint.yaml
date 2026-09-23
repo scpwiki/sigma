@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '*.css'
+      - 'package.json'
+      - 'package-lock.json'
       - '.github/workflows/lint.yaml'
 
 jobs:
