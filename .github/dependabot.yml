@@ -1,0 +1,8 @@
+# Config documentation: https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference#configuration-options-for-dependabotyml
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
