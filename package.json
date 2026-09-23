@@ -10,7 +10,7 @@
     "url": "https://github.com/scpwiki/sigma"
   },
   "devDependencies": {
-    "minify": "^9.2.0",
+    "minify": "^15.3.1",
     "prettier": "^3.9.8",
     "stylelint": "^15.10.1",
     "stylelint-config-standard": "^32.0.0"
