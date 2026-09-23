@@ -146,8 +146,9 @@ body {
 	background-color: #fff;
 	font-size: 0.95em;
 	color: #333;
-	font-family: InterVariable, RedactRect, Inter, BlinkMacSystemFont,
-		'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+	font-family:
+		InterVariable, RedactRect, Inter, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
 		'Helvetica Neue', sans-serif;
 	font-feature-settings: 'case', 'ss01', 'ss04';
 }
@@ -557,7 +558,8 @@ sup {
 		top: 1rem;
 		left: 1rem;
 		z-index: 15;
-		font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+		font-family:
+			'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
 			'Times New Roman', Helvetica, Roboto, sans-serif;
 		font-size: 30px;
 		font-weight: 700;
@@ -713,7 +715,8 @@ div.sexy-box div.image-container img {
 	border-radius: 10px;
 	background-color: #999990;
 	margin: 10px 0 15px;
-	box-shadow: 0 2px 6px rgb(0, 0, 0, 0.5),
+	box-shadow:
+		0 2px 6px rgb(0, 0, 0, 0.5),
 		inset 0 1px rgb(255, 255, 255, 0.3),
 		inset 0 10px rgb(255, 255, 255, 0.2),
 		inset 0 10px 20px rgb(255, 255, 255, 0.25),
@@ -945,7 +948,8 @@ div.page-rate-widget-box .rate-points {
 .forum-thread-box .description-block {
 	padding: 0.5em 1em;
 	border-radius: 10px;
-	box-shadow: 0 1px 5px rgb(0, 0, 0, 0.15),
+	box-shadow:
+		0 1px 5px rgb(0, 0, 0, 0.15),
 		inset 0 1px 0 rgb(255, 255, 255, 0.8),
 		inset 0 10px 5px rgb(255, 255, 255, 0.25),
 		inset 0 -15px 30px rgb(0, 0, 0, 0.1);
