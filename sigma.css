@@ -800,7 +800,6 @@ div.sexy-box div.image-container img {
 	border-radius: 5px;
 	box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
 	margin-bottom: 10px;
-	margin-right: 2em;
 }
 
 /* Has increased specificity to override action-area rate's stylesheet */
@@ -881,7 +880,7 @@ div.page-rate-widget-box .rate-points {
 .scp-image-block.block-right {
 	float: right;
 	clear: right;
-	margin: 0 2em 1em;
+	margin: 0 0 1em 2em;
 }
 
 .scp-image-block.block-left {
@@ -891,8 +890,7 @@ div.page-rate-widget-box .rate-points {
 }
 
 .scp-image-block.block-center {
-	margin-right: auto;
-	margin-left: auto;
+	margin-inline: auto;
 }
 
 .scp-image-block img {
