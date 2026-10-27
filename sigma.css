@@ -874,7 +874,8 @@ div.page-rate-widget-box .rate-points {
 .scp-image-block {
 	border: solid 1px #666;
 	box-shadow: 0 1px 6px rgb(0, 0, 0, 0.25);
-	width: 300px;
+	--_image-block-width: 300px; /* exposes an image block's width as a custom property */
+	width: var(--_image-block-width);
 }
 
 .scp-image-block.block-right {
