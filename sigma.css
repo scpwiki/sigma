@@ -871,11 +871,17 @@ div.page-rate-widget-box .rate-points {
 }
 
 /* Standard Image Block */
+@property --_image-block-width {
+	syntax: "<length> | <percentage>";
+	inherits: true;
+	initial-value: 300px;
+}
+
 .scp-image-block {
 	border: solid 1px #666;
 	box-shadow: 0 1px 6px rgb(0, 0, 0, 0.25);
-	--_image-block-width: 300px; /* exposes an image block's width as a custom property */
-	width: var(--_image-block-width);
+	--_image-block-width: 300px;
+	width: 300px;
 }
 
 .scp-image-block.block-right {
