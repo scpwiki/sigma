@@ -18,6 +18,7 @@ rules:
   alpha-value-notation: number
   custom-property-empty-line-before: never
   media-feature-range-notation: prefix
+  declaration-empty-line-before: never
 
   comment-empty-line-before:
     - always
