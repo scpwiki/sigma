@@ -25,7 +25,7 @@ rules:
     - except: ['first-nested']
 
   comment-whitespace-inside: always
-  comment-word-disallowed-list: ['TODO', 'FIXME']
+  comment-word-disallowed-list: ['TODO', 'FIXME', 'XXX']
 
   # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
   property-no-vendor-prefix: null
