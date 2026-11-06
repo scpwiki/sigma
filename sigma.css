@@ -872,7 +872,7 @@ div.page-rate-widget-box .rate-points {
 
 /* Standard Image Block */
 @property --_image-block-width {
-	syntax: "<length> | <percentage>";
+	syntax: '<length> | <percentage>';
 	inherits: true;
 	initial-value: 300px;
 }
