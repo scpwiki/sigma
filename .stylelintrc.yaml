@@ -27,6 +27,10 @@ rules:
   comment-whitespace-inside: always
   comment-word-disallowed-list: ['TODO', 'FIXME', 'XXX']
 
+  # Support underscore-prefixed kebab-case variable names,
+  # e.g. --_image-block-width
+  custom-property-pattern: '_?[a-z][a-z0-9\-]*[a-z]'
+
   # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
   property-no-vendor-prefix: null
   value-no-vendor-prefix: null
