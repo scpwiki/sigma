@@ -18,13 +18,18 @@ rules:
   alpha-value-notation: number
   custom-property-empty-line-before: never
   media-feature-range-notation: prefix
+  declaration-empty-line-before: never
 
   comment-empty-line-before:
     - always
     - except: ['first-nested']
 
   comment-whitespace-inside: always
-  comment-word-disallowed-list: ['TODO', 'FIXME']
+  comment-word-disallowed-list: ['TODO', 'FIXME', 'XXX']
+
+  # Support underscore-prefixed kebab-case variable names,
+  # e.g. --_image-block-width
+  custom-property-pattern: '_?[a-z][a-z0-9\-]*[a-z]'
 
   # Remove these rules eventually, see https://scuttle.atlassian.net/browse/TT-56
   property-no-vendor-prefix: null
